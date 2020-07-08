@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+
+                <Button
+                    android:id="@+id/getWalkingRouteResult"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/orange_background"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="5dp"
+                    android:onClick="getWalkingRouteResult"
+                    android:text="Walking"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/getBicyclingRouteResult"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/orange_background"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="5dp"
+                    android:onClick="getBicyclingRouteResult"
+                    android:text="Bicycling"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/getDrivingRouteResult"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/orange_background"
+                    android:layout_weight="1"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:onClick="getDrivingRouteResult"
+                    android:text="Driving"
+                    android:textAllCaps="false" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:textStyle="bold"
+                    android:text="My Address : " />
+
+                <TextView
+                    android:id="@+id/textView_yourAddress"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="Lorem Ipsum is simply dummy text of the printing and typesetting" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:textStyle="bold"
+                    android:text="Help Address : " />
+
+                <TextView
+                    android:id="@+id/textView_helpAddress"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="Lorem Ipsum is simply dummy text of the printing and typesetting" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <fragment
+        android:id="@+id/mapfragment_routeplanningdemo"
+        android:name="com.huawei.hms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="50dp"/>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:id="@+id/btn_goWithGoogleMap"
+        android:background="@drawable/orange_background"
+        android:text="Go With Google Map"
+        android:textColor="@android:color/black"
+        android:fontFamily="@font/muli_regular"
+        android:textAllCaps="false"
+        android:layout_gravity="center"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="-45dp"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"/>
+</LinearLayout>

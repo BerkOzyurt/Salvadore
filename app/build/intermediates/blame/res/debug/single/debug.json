@@ -1,0 +1,358 @@
+[
+    {
+        "merged": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_contact_unselected.png.flat",
+        "source": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\src\\main\\res\\drawable\\contact_unselected.png"
+    },
+    {
+        "merged": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_help_detail.xml.flat",
+        "source": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\src\\main\\res\\layout\\fragment_help_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_map_unselected.png.flat",
+        "source": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\src\\main\\res\\drawable\\map_unselected.png"
+    },
+    {
+        "merged": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_mail_icon.png.flat",
+        "source": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\src\\main\\res\\drawable\\mail_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_edit_icon_white.png.flat",
+        "source": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\src\\main\\res\\drawable\\edit_icon_white.png"
+    },
+    {
+        "merged": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_home.xml.flat",
+        "source": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\src\\main\\res\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icon_open_menu.png.flat",
+        "source": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\src\\main\\res\\drawable\\icon_open_menu.png"
+    },
+    {
+        "merged": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_orange_background.xml.flat",
+        "source": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\src\\main\\res\\drawable\\orange_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_list_unselected.png.flat",
+        "source": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\src\\main\\res\\drawable\\list_unselected.png"
+    },
+    {
+        "merged": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\build\\intermediates\\res\\merged\\debug\\font_muli_regular.ttf.flat",
+        "source": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\src\\main\\res\\font\\muli_regular.ttf"
+    },
+    {
+        "merged": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_map.xml.flat",
+        "source": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\src\\main\\res\\layout\\map.xml"
+    },
+    {
+        "merged": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_burgundy_background.xml.flat",
+        "source": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\src\\main\\res\\drawable\\burgundy_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_settings_selected.png.flat",
+        "source": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\src\\main\\res\\drawable\\settings_selected.png"
+    },
+    {
+        "merged": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_input_model_selected.xml.flat",
+        "source": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\src\\main\\res\\drawable\\input_model_selected.xml"
+    },
+    {
+        "merged": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialog_interface.xml.flat",
+        "source": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\src\\main\\res\\layout\\dialog_interface.xml"
+    },
+    {
+        "merged": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_splash.xml.flat",
+        "source": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\src\\main\\res\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_register_info.xml.flat",
+        "source": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\src\\main\\res\\layout\\activity_register_info.xml"
+    },
+    {
+        "merged": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_give_detail.xml.flat",
+        "source": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\src\\main\\res\\layout\\fragment_give_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_map_example.png.flat",
+        "source": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\src\\main\\res\\drawable\\map_example.png"
+    },
+    {
+        "merged": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_input_model_unselected.xml.flat",
+        "source": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\src\\main\\res\\drawable\\input_model_unselected.xml"
+    },
+    {
+        "merged": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_age_icon.png.flat",
+        "source": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\src\\main\\res\\drawable\\age_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_list_item.xml.flat",
+        "source": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\src\\main\\res\\layout\\list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_edit_icon.png.flat",
+        "source": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\src\\main\\res\\drawable\\edit_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_delete_icon_white.png.flat",
+        "source": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\src\\main\\res\\drawable\\delete_icon_white.png"
+    },
+    {
+        "merged": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_about_salvadore.xml.flat",
+        "source": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\src\\main\\res\\layout\\fragment_about_salvadore.xml"
+    },
+    {
+        "merged": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_map_selected.png.flat",
+        "source": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\src\\main\\res\\drawable\\map_selected.png"
+    },
+    {
+        "merged": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_country_icon.png.flat",
+        "source": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\src\\main\\res\\drawable\\country_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_contacts.xml.flat",
+        "source": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\src\\main\\res\\layout\\fragment_contacts.xml"
+    },
+    {
+        "merged": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_exclamation.jpg.flat",
+        "source": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\src\\main\\res\\drawable\\exclamation.jpg"
+    },
+    {
+        "merged": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_main_logo.png.flat",
+        "source": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\src\\main\\res\\drawable\\main_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_register_login.xml.flat",
+        "source": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\src\\main\\res\\layout\\activity_register_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_notification_unselected.png.flat",
+        "source": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\src\\main\\res\\drawable\\notification_unselected.png"
+    },
+    {
+        "merged": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_wifi_detect.xml.flat",
+        "source": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\src\\main\\res\\layout\\fragment_wifi_detect.xml"
+    },
+    {
+        "merged": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_city_icon.png.flat",
+        "source": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\src\\main\\res\\drawable\\city_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_back_icon.png.flat",
+        "source": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\src\\main\\res\\drawable\\back_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_person_icon.png.flat",
+        "source": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\src\\main\\res\\drawable\\person_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_line.png.flat",
+        "source": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\src\\main\\res\\drawable\\line.png"
+    },
+    {
+        "merged": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_notification_selected.png.flat",
+        "source": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\src\\main\\res\\drawable\\notification_selected.png"
+    },
+    {
+        "merged": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_list_selected.png.flat",
+        "source": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\src\\main\\res\\drawable\\list_selected.png"
+    },
+    {
+        "merged": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_gender_icon.png.flat",
+        "source": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\src\\main\\res\\drawable\\gender_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_privacy_policy.xml.flat",
+        "source": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\src\\main\\res\\layout\\fragment_privacy_policy.xml"
+    },
+    {
+        "merged": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_salvadore.png.flat",
+        "source": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\src\\main\\res\\drawable\\salvadore.png"
+    },
+    {
+        "merged": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_premium.xml.flat",
+        "source": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\src\\main\\res\\layout\\fragment_premium.xml"
+    },
+    {
+        "merged": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_profile_selected.png.flat",
+        "source": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\src\\main\\res\\drawable\\profile_selected.png"
+    },
+    {
+        "merged": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_huaweilogo.png.flat",
+        "source": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\src\\main\\res\\drawable\\huaweilogo.png"
+    },
+    {
+        "merged": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_login_register.xml.flat",
+        "source": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\src\\main\\res\\layout\\activity_login_register.xml"
+    },
+    {
+        "merged": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_time_icon.png.flat",
+        "source": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\src\\main\\res\\drawable\\time_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_settings_unselected.png.flat",
+        "source": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\src\\main\\res\\drawable\\settings_unselected.png"
+    },
+    {
+        "merged": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_how_to_use.xml.flat",
+        "source": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\src\\main\\res\\layout\\fragment_how_to_use.xml"
+    },
+    {
+        "merged": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_profile_unselected.png.flat",
+        "source": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\src\\main\\res\\drawable\\profile_unselected.png"
+    },
+    {
+        "merged": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_map.xml.flat",
+        "source": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\src\\main\\res\\layout\\fragment_map.xml"
+    },
+    {
+        "merged": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_logo.png.flat",
+        "source": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\src\\main\\res\\drawable\\logo.png"
+    },
+    {
+        "merged": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_badge_ph.jpg.flat",
+        "source": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\src\\main\\res\\drawable\\badge_ph.jpg"
+    },
+    {
+        "merged": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_contact_selected.png.flat",
+        "source": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\src\\main\\res\\drawable\\contact_selected.png"
+    },
+    {
+        "merged": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_profile.xml.flat",
+        "source": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\src\\main\\res\\layout\\fragment_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_help_list.xml.flat",
+        "source": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\src\\main\\res\\layout\\fragment_help_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_list_item_loading.xml.flat",
+        "source": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\src\\main\\res\\layout\\list_item_loading.xml"
+    },
+    {
+        "merged": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_gray_background.xml.flat",
+        "source": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\src\\main\\res\\drawable\\gray_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_spinner_item.xml.flat",
+        "source": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\src\\main\\res\\layout\\spinner_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_phone_icon.png.flat",
+        "source": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\src\\main\\res\\drawable\\phone_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_white_background.xml.flat",
+        "source": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\src\\main\\res\\drawable\\white_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_history_list.xml.flat",
+        "source": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\src\\main\\res\\layout\\fragment_history_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_settings.xml.flat",
+        "source": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\src\\main\\res\\layout\\fragment_settings.xml"
+    }
+]

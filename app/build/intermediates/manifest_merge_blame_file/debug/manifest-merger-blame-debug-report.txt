@@ -1,0 +1,577 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.salvadore"
+4    android:versionCode="2"
+5    android:versionName="1.0.1" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\b84158088\Desktop\130420\salvadore-master\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\b84158088\Desktop\130420\salvadore-master\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\b84158088\Desktop\130420\salvadore-master\app\src\main\AndroidManifest.xml:47:5-67
+11-->C:\Users\b84158088\Desktop\130420\salvadore-master\app\src\main\AndroidManifest.xml:47:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->C:\Users\b84158088\Desktop\130420\salvadore-master\app\src\main\AndroidManifest.xml:48:5-79
+12-->C:\Users\b84158088\Desktop\130420\salvadore-master\app\src\main\AndroidManifest.xml:48:22-76
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->C:\Users\b84158088\Desktop\130420\salvadore-master\app\src\main\AndroidManifest.xml:49:5-76
+13-->C:\Users\b84158088\Desktop\130420\salvadore-master\app\src\main\AndroidManifest.xml:49:22-73
+14    <uses-permission android:name="com.huawei.appmarket.service.commondata.permission.GET_COMMON_DATA" />
+14-->C:\Users\b84158088\Desktop\130420\salvadore-master\app\src\main\AndroidManifest.xml:50:5-106
+14-->C:\Users\b84158088\Desktop\130420\salvadore-master\app\src\main\AndroidManifest.xml:50:22-103
+15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+15-->C:\Users\b84158088\Desktop\130420\salvadore-master\app\src\main\AndroidManifest.xml:51:5-78
+15-->C:\Users\b84158088\Desktop\130420\salvadore-master\app\src\main\AndroidManifest.xml:51:22-76
+16    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+16-->C:\Users\b84158088\Desktop\130420\salvadore-master\app\src\main\AndroidManifest.xml:52:5-80
+16-->C:\Users\b84158088\Desktop\130420\salvadore-master\app\src\main\AndroidManifest.xml:52:22-78
+17    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+17-->C:\Users\b84158088\Desktop\130420\salvadore-master\app\src\main\AndroidManifest.xml:53:5-84
+17-->C:\Users\b84158088\Desktop\130420\salvadore-master\app\src\main\AndroidManifest.xml:53:22-82
+18    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+18-->C:\Users\b84158088\Desktop\130420\salvadore-master\app\src\main\AndroidManifest.xml:54:5-75
+18-->C:\Users\b84158088\Desktop\130420\salvadore-master\app\src\main\AndroidManifest.xml:54:22-72
+19    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+19-->C:\Users\b84158088\Desktop\130420\salvadore-master\app\src\main\AndroidManifest.xml:55:5-82
+19-->C:\Users\b84158088\Desktop\130420\salvadore-master\app\src\main\AndroidManifest.xml:55:22-80
+20    <uses-permission android:name="android.permission.WAKE_LOCK" />
+20-->C:\Users\b84158088\Desktop\130420\salvadore-master\app\src\main\AndroidManifest.xml:56:5-67
+20-->C:\Users\b84158088\Desktop\130420\salvadore-master\app\src\main\AndroidManifest.xml:56:22-65
+21    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+21-->C:\Users\b84158088\Desktop\130420\salvadore-master\app\src\main\AndroidManifest.xml:57:5-77
+21-->C:\Users\b84158088\Desktop\130420\salvadore-master\app\src\main\AndroidManifest.xml:57:22-74
+22    <uses-permission
+22-->C:\Users\b84158088\Desktop\130420\salvadore-master\app\src\main\AndroidManifest.xml:58:5-60:38
+23        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+23-->C:\Users\b84158088\Desktop\130420\salvadore-master\app\src\main\AndroidManifest.xml:59:9-65
+24        android:maxSdkVersion="22" />
+24-->C:\Users\b84158088\Desktop\130420\salvadore-master\app\src\main\AndroidManifest.xml:60:9-35
+25    <uses-permission
+25-->C:\Users\b84158088\Desktop\130420\salvadore-master\app\src\main\AndroidManifest.xml:61:5-63:38
+26        android:name="android.permission.READ_EXTERNAL_STORAGE"
+26-->C:\Users\b84158088\Desktop\130420\salvadore-master\app\src\main\AndroidManifest.xml:62:9-64
+27        android:maxSdkVersion="22" />
+27-->C:\Users\b84158088\Desktop\130420\salvadore-master\app\src\main\AndroidManifest.xml:63:9-35
+28    <!-- 注意这里.permission.PASSBY_MSG是自身app的包名 + .permission.PROCESS_PUSH_MSG -->
+29    <permission
+29-->[com.huawei.hms:push:4.0.2.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\f95bfc33991ebf29406101c3032f98cc\jetified-push-4.0.2.300\AndroidManifest.xml:10:5-12:55
+30        android:name="com.example.salvadore.permission.PROCESS_PUSH_MSG"
+30-->[com.huawei.hms:push:4.0.2.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\f95bfc33991ebf29406101c3032f98cc\jetified-push-4.0.2.300\AndroidManifest.xml:11:9-68
+31        android:protectionLevel="signatureOrSystem" />
+31-->[com.huawei.hms:push:4.0.2.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\f95bfc33991ebf29406101c3032f98cc\jetified-push-4.0.2.300\AndroidManifest.xml:12:9-52
+32    <permission
+32-->[com.huawei.hms:push:4.0.2.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\f95bfc33991ebf29406101c3032f98cc\jetified-push-4.0.2.300\AndroidManifest.xml:13:5-15:55
+33        android:name="com.example.salvadore.permission.PUSH_PROVIDER"
+33-->[com.huawei.hms:push:4.0.2.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\f95bfc33991ebf29406101c3032f98cc\jetified-push-4.0.2.300\AndroidManifest.xml:14:9-65
+34        android:protectionLevel="signatureOrSystem" />
+34-->[com.huawei.hms:push:4.0.2.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\f95bfc33991ebf29406101c3032f98cc\jetified-push-4.0.2.300\AndroidManifest.xml:15:9-52
+35    <permission
+35-->[com.huawei.hms:push:4.0.2.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\f95bfc33991ebf29406101c3032f98cc\jetified-push-4.0.2.300\AndroidManifest.xml:16:5-18:55
+36        android:name="com.example.salvadore.permission.PUSH_WRITE_PROVIDER"
+36-->[com.huawei.hms:push:4.0.2.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\f95bfc33991ebf29406101c3032f98cc\jetified-push-4.0.2.300\AndroidManifest.xml:17:9-71
+37        android:protectionLevel="signatureOrSystem" /> <!-- 注意这里.permission.PASSBY_MSG是自身app的包名 + .permission.PROCESS_PUSH_MSG -->
+37-->[com.huawei.hms:push:4.0.2.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\f95bfc33991ebf29406101c3032f98cc\jetified-push-4.0.2.300\AndroidManifest.xml:18:9-52
+38    <uses-permission android:name="com.example.salvadore.permission.PROCESS_PUSH_MSG" />
+38-->[com.huawei.hms:push:4.0.2.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\f95bfc33991ebf29406101c3032f98cc\jetified-push-4.0.2.300\AndroidManifest.xml:20:5-84
+38-->[com.huawei.hms:push:4.0.2.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\f95bfc33991ebf29406101c3032f98cc\jetified-push-4.0.2.300\AndroidManifest.xml:20:22-81
+39    <uses-permission android:name="com.example.salvadore.permission.PUSH_PROVIDER" />
+39-->[com.huawei.hms:push:4.0.2.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\f95bfc33991ebf29406101c3032f98cc\jetified-push-4.0.2.300\AndroidManifest.xml:21:5-81
+39-->[com.huawei.hms:push:4.0.2.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\f95bfc33991ebf29406101c3032f98cc\jetified-push-4.0.2.300\AndroidManifest.xml:21:22-78
+40
+41    <application
+41-->C:\Users\b84158088\Desktop\130420\salvadore-master\app\src\main\AndroidManifest.xml:5:5-45:19
+42        android:name="com.example.salvadore.utils.CloudDBQuickStartApplication"
+42-->C:\Users\b84158088\Desktop\130420\salvadore-master\app\src\main\AndroidManifest.xml:6:9-59
+43        android:allowBackup="true"
+43-->C:\Users\b84158088\Desktop\130420\salvadore-master\app\src\main\AndroidManifest.xml:7:9-35
+44        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+44-->[androidx.core:core:1.1.0] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\73659a861267ccb13b5b818eb8855c1a\core-1.1.0\AndroidManifest.xml:24:18-86
+45        android:debuggable="true"
+46        android:hardwareAccelerated="false"
+46-->C:\Users\b84158088\Desktop\130420\salvadore-master\app\src\main\AndroidManifest.xml:13:9-44
+47        android:icon="@mipmap/ic_launcher"
+47-->C:\Users\b84158088\Desktop\130420\salvadore-master\app\src\main\AndroidManifest.xml:8:9-43
+48        android:label="@string/app_name"
+48-->C:\Users\b84158088\Desktop\130420\salvadore-master\app\src\main\AndroidManifest.xml:9:9-41
+49        android:largeHeap="true"
+49-->C:\Users\b84158088\Desktop\130420\salvadore-master\app\src\main\AndroidManifest.xml:12:9-33
+50        android:roundIcon="@mipmap/ic_launcher_round"
+50-->C:\Users\b84158088\Desktop\130420\salvadore-master\app\src\main\AndroidManifest.xml:10:9-54
+51        android:supportsRtl="true"
+51-->C:\Users\b84158088\Desktop\130420\salvadore-master\app\src\main\AndroidManifest.xml:11:9-35
+52        android:testOnly="true"
+53        android:theme="@style/AppTheme" >
+53-->C:\Users\b84158088\Desktop\130420\salvadore-master\app\src\main\AndroidManifest.xml:14:9-40
+54        <activity android:name="com.example.salvadore.activities.SplashActivity" >
+54-->C:\Users\b84158088\Desktop\130420\salvadore-master\app\src\main\AndroidManifest.xml:15:9-22:20
+54-->C:\Users\b84158088\Desktop\130420\salvadore-master\app\src\main\AndroidManifest.xml:15:19-60
+55            <intent-filter>
+55-->C:\Users\b84158088\Desktop\130420\salvadore-master\app\src\main\AndroidManifest.xml:16:13-21:29
+56                <action android:name="android.intent.action.MAIN" />
+56-->C:\Users\b84158088\Desktop\130420\salvadore-master\app\src\main\AndroidManifest.xml:17:17-69
+56-->C:\Users\b84158088\Desktop\130420\salvadore-master\app\src\main\AndroidManifest.xml:17:25-66
+57                <action android:name="android.intent.action.VIEW" />
+57-->C:\Users\b84158088\Desktop\130420\salvadore-master\app\src\main\AndroidManifest.xml:18:17-69
+57-->C:\Users\b84158088\Desktop\130420\salvadore-master\app\src\main\AndroidManifest.xml:18:25-66
+58
+59                <category android:name="android.intent.category.LAUNCHER" />
+59-->C:\Users\b84158088\Desktop\130420\salvadore-master\app\src\main\AndroidManifest.xml:20:17-77
+59-->C:\Users\b84158088\Desktop\130420\salvadore-master\app\src\main\AndroidManifest.xml:20:27-74
+60            </intent-filter>
+61        </activity>
+62        <activity android:name="com.example.salvadore.activities.RegisterActivity" />
+62-->C:\Users\b84158088\Desktop\130420\salvadore-master\app\src\main\AndroidManifest.xml:23:9-74
+62-->C:\Users\b84158088\Desktop\130420\salvadore-master\app\src\main\AndroidManifest.xml:23:19-62
+63        <activity android:name="com.example.salvadore.activities.RegisterInfoActivity" />
+63-->C:\Users\b84158088\Desktop\130420\salvadore-master\app\src\main\AndroidManifest.xml:24:9-78
+63-->C:\Users\b84158088\Desktop\130420\salvadore-master\app\src\main\AndroidManifest.xml:24:19-66
+64        <activity android:name="com.example.salvadore.activities.MainActivity" />
+64-->C:\Users\b84158088\Desktop\130420\salvadore-master\app\src\main\AndroidManifest.xml:25:9-70
+64-->C:\Users\b84158088\Desktop\130420\salvadore-master\app\src\main\AndroidManifest.xml:25:19-58
+65        <activity android:name="com.example.salvadore.activities.MapActivity" />
+65-->C:\Users\b84158088\Desktop\130420\salvadore-master\app\src\main\AndroidManifest.xml:26:9-69
+65-->C:\Users\b84158088\Desktop\130420\salvadore-master\app\src\main\AndroidManifest.xml:26:19-57
+66        <activity android:name="com.example.salvadore.activities.LoginActivity" />
+66-->C:\Users\b84158088\Desktop\130420\salvadore-master\app\src\main\AndroidManifest.xml:27:9-71
+66-->C:\Users\b84158088\Desktop\130420\salvadore-master\app\src\main\AndroidManifest.xml:27:19-59
+67
+68        <service
+68-->C:\Users\b84158088\Desktop\130420\salvadore-master\app\src\main\AndroidManifest.xml:29:9-35:19
+69            android:name="com.example.salvadore.utils.MyPushService"
+69-->C:\Users\b84158088\Desktop\130420\salvadore-master\app\src\main\AndroidManifest.xml:30:13-48
+70            android:exported="false" >
+70-->C:\Users\b84158088\Desktop\130420\salvadore-master\app\src\main\AndroidManifest.xml:31:13-37
+71            <intent-filter>
+71-->C:\Users\b84158088\Desktop\130420\salvadore-master\app\src\main\AndroidManifest.xml:32:13-34:29
+72                <action android:name="com.huawei.push.action.MESSAGING_EVENT" />
+72-->C:\Users\b84158088\Desktop\130420\salvadore-master\app\src\main\AndroidManifest.xml:33:17-81
+72-->C:\Users\b84158088\Desktop\130420\salvadore-master\app\src\main\AndroidManifest.xml:33:25-78
+73            </intent-filter>
+74        </service>
+75        <service
+75-->C:\Users\b84158088\Desktop\130420\salvadore-master\app\src\main\AndroidManifest.xml:37:9-39:40
+76            android:name="com.example.salvadore.utils.LocationBackgroundService"
+76-->C:\Users\b84158088\Desktop\130420\salvadore-master\app\src\main\AndroidManifest.xml:38:13-60
+77            android:exported="false" />
+77-->C:\Users\b84158088\Desktop\130420\salvadore-master\app\src\main\AndroidManifest.xml:39:13-37
+78
+79        <meta-data
+79-->C:\Users\b84158088\Desktop\130420\salvadore-master\app\src\main\AndroidManifest.xml:41:9-43:36
+80            android:name="apms_debug_log_enabled"
+80-->C:\Users\b84158088\Desktop\130420\salvadore-master\app\src\main\AndroidManifest.xml:42:13-50
+81            android:value="true" />
+81-->C:\Users\b84158088\Desktop\130420\salvadore-master\app\src\main\AndroidManifest.xml:43:13-33
+82
+83        <service
+83-->[com.huawei.agconnect:agconnect-appmessaging:1.3.1.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\79ef726accbaff7d9210b7ab3d8fda3e\jetified-agconnect-appmessaging-1.3.1.300\AndroidManifest.xml:11:9-20:19
+84            android:name="com.huawei.agconnect.core.ServiceDiscovery"
+84-->[com.huawei.agconnect:agconnect-appmessaging:1.3.1.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\79ef726accbaff7d9210b7ab3d8fda3e\jetified-agconnect-appmessaging-1.3.1.300\AndroidManifest.xml:12:13-70
+85            android:exported="false" >
+85-->[com.huawei.agconnect:agconnect-appmessaging:1.3.1.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\79ef726accbaff7d9210b7ab3d8fda3e\jetified-agconnect-appmessaging-1.3.1.300\AndroidManifest.xml:13:13-37
+86            <meta-data
+86-->[com.huawei.agconnect:agconnect-appmessaging:1.3.1.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\79ef726accbaff7d9210b7ab3d8fda3e\jetified-agconnect-appmessaging-1.3.1.300\AndroidManifest.xml:14:13-16:78
+87                android:name="com.huawei.agconnect.appmessaging.AppMessagingServiceRegistrar"
+87-->[com.huawei.agconnect:agconnect-appmessaging:1.3.1.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\79ef726accbaff7d9210b7ab3d8fda3e\jetified-agconnect-appmessaging-1.3.1.300\AndroidManifest.xml:15:17-94
+88                android:value="com.huawei.agconnect.core.ServiceRegistrar" />
+88-->[com.huawei.agconnect:agconnect-appmessaging:1.3.1.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\79ef726accbaff7d9210b7ab3d8fda3e\jetified-agconnect-appmessaging-1.3.1.300\AndroidManifest.xml:16:17-75
+89            <meta-data
+89-->[com.huawei.agconnect:agconnect-appmessaging:1.3.1.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\79ef726accbaff7d9210b7ab3d8fda3e\jetified-agconnect-appmessaging-1.3.1.300\AndroidManifest.xml:17:13-19:78
+90                android:name="com.huawei.agconnect.appmessaging.display.AppMessagingDisplayServiceRegistrar"
+90-->[com.huawei.agconnect:agconnect-appmessaging:1.3.1.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\79ef726accbaff7d9210b7ab3d8fda3e\jetified-agconnect-appmessaging-1.3.1.300\AndroidManifest.xml:18:17-109
+91                android:value="com.huawei.agconnect.core.ServiceRegistrar" />
+91-->[com.huawei.agconnect:agconnect-appmessaging:1.3.1.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\79ef726accbaff7d9210b7ab3d8fda3e\jetified-agconnect-appmessaging-1.3.1.300\AndroidManifest.xml:19:17-75
+92            <meta-data
+92-->[com.huawei.agconnect:agconnect-apms:1.2.1.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\9550b1b2407d87c041fedde35d576569\jetified-agconnect-apms-1.2.1.300\AndroidManifest.xml:24:13-26:78
+93                android:name="com.huawei.agconnect.apms.APMSRegistrar"
+93-->[com.huawei.agconnect:agconnect-apms:1.2.1.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\9550b1b2407d87c041fedde35d576569\jetified-agconnect-apms-1.2.1.300\AndroidManifest.xml:25:17-71
+94                android:value="com.huawei.agconnect.core.ServiceRegistrar" />
+94-->[com.huawei.agconnect:agconnect-apms:1.2.1.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\9550b1b2407d87c041fedde35d576569\jetified-agconnect-apms-1.2.1.300\AndroidManifest.xml:26:17-75
+95            <meta-data
+95-->[com.huawei.agconnect:agconnect-remoteconfig:1.2.1.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\5d334c8db95d7ec00ce5389de1337f8f\jetified-agconnect-remoteconfig-1.2.1.300\AndroidManifest.xml:13:13-15:78
+96                android:name="com.huawei.agconnect.remoteconfig.ConfigRegistrar"
+96-->[com.huawei.agconnect:agconnect-remoteconfig:1.2.1.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\5d334c8db95d7ec00ce5389de1337f8f\jetified-agconnect-remoteconfig-1.2.1.300\AndroidManifest.xml:14:17-81
+97                android:value="com.huawei.agconnect.core.ServiceRegistrar" />
+97-->[com.huawei.agconnect:agconnect-remoteconfig:1.2.1.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\5d334c8db95d7ec00ce5389de1337f8f\jetified-agconnect-remoteconfig-1.2.1.300\AndroidManifest.xml:15:17-75
+98            <meta-data
+98-->[com.huawei.agconnect:agconnect-abtest:1.2.1.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\c969880ee409c0a4779ec57cc041ed89\jetified-agconnect-abtest-1.2.1.300\AndroidManifest.xml:13:13-15:78
+99                android:name="com.huawei.agconnect.abtest.ABTestRegistrar"
+99-->[com.huawei.agconnect:agconnect-abtest:1.2.1.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\c969880ee409c0a4779ec57cc041ed89\jetified-agconnect-abtest-1.2.1.300\AndroidManifest.xml:14:17-75
+100                android:value="com.huawei.agconnect.core.ServiceRegistrar" />
+100-->[com.huawei.agconnect:agconnect-abtest:1.2.1.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\c969880ee409c0a4779ec57cc041ed89\jetified-agconnect-abtest-1.2.1.300\AndroidManifest.xml:15:17-75
+101            <meta-data
+101-->[com.huawei.agconnect:agconnect-auth:1.2.0.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\e7bcd8b2467ca0da463d4b130483648a\jetified-agconnect-auth-1.2.0.300\AndroidManifest.xml:13:13-15:78
+102                android:name="com.huawei.agconnect.auth.AuthServiceRegistrar"
+102-->[com.huawei.agconnect:agconnect-auth:1.2.0.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\e7bcd8b2467ca0da463d4b130483648a\jetified-agconnect-auth-1.2.0.300\AndroidManifest.xml:14:17-78
+103                android:value="com.huawei.agconnect.core.ServiceRegistrar" />
+103-->[com.huawei.agconnect:agconnect-auth:1.2.0.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\e7bcd8b2467ca0da463d4b130483648a\jetified-agconnect-auth-1.2.0.300\AndroidManifest.xml:15:17-75
+104            <meta-data
+104-->[com.huawei.agconnect:agconnect-credential:1.3.1.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\29bfcaf6d8b57334b2783315a9105d92\jetified-agconnect-credential-1.3.1.300\AndroidManifest.xml:16:13-18:78
+105                android:name="com.huawei.agconnect.credential.CredentialServiceRegistrar:500"
+105-->[com.huawei.agconnect:agconnect-credential:1.3.1.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\29bfcaf6d8b57334b2783315a9105d92\jetified-agconnect-credential-1.3.1.300\AndroidManifest.xml:17:17-94
+106                android:value="com.huawei.agconnect.core.ServiceRegistrar" />
+106-->[com.huawei.agconnect:agconnect-credential:1.3.1.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\29bfcaf6d8b57334b2783315a9105d92\jetified-agconnect-credential-1.3.1.300\AndroidManifest.xml:18:17-75
+107        </service>
+108
+109        <provider
+109-->[com.huawei.agconnect:agconnect-apms:1.2.1.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\9550b1b2407d87c041fedde35d576569\jetified-agconnect-apms-1.2.1.300\AndroidManifest.xml:15:9-19:39
+110            android:name="com.huawei.agconnect.apms.APMSInitializeProvider"
+110-->[com.huawei.agconnect:agconnect-apms:1.2.1.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\9550b1b2407d87c041fedde35d576569\jetified-agconnect-apms-1.2.1.300\AndroidManifest.xml:16:13-76
+111            android:authorities="com.example.salvadore.APMSInitializeProvider"
+111-->[com.huawei.agconnect:agconnect-apms:1.2.1.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\9550b1b2407d87c041fedde35d576569\jetified-agconnect-apms-1.2.1.300\AndroidManifest.xml:17:13-74
+112            android:exported="false"
+112-->[com.huawei.agconnect:agconnect-apms:1.2.1.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\9550b1b2407d87c041fedde35d576569\jetified-agconnect-apms-1.2.1.300\AndroidManifest.xml:18:13-37
+113            android:initOrder="101" />
+113-->[com.huawei.agconnect:agconnect-apms:1.2.1.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\9550b1b2407d87c041fedde35d576569\jetified-agconnect-apms-1.2.1.300\AndroidManifest.xml:19:13-36
+114
+115        <meta-data
+115-->[com.huawei.hms:hianalytics:4.0.3.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\b2412b698e1741161f90f2b2c5f2b75c\jetified-hianalytics-4.0.3.300\AndroidManifest.xml:16:9-18:53
+116            android:name="com.huawei.hms.client.service.name:hianalytics"
+116-->[com.huawei.hms:hianalytics:4.0.3.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\b2412b698e1741161f90f2b2c5f2b75c\jetified-hianalytics-4.0.3.300\AndroidManifest.xml:17:13-74
+117            android:value="hianalytics:4.0.3.300" />
+117-->[com.huawei.hms:hianalytics:4.0.3.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\b2412b698e1741161f90f2b2c5f2b75c\jetified-hianalytics-4.0.3.300\AndroidManifest.xml:18:13-50
+118        <meta-data
+118-->[com.huawei.hms:hianalytics:4.0.3.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\b2412b698e1741161f90f2b2c5f2b75c\jetified-hianalytics-4.0.3.300\AndroidManifest.xml:19:9-21:33
+119            android:name="com.huawei.hms.min_api_level:hianalytics:hianalytics"
+119-->[com.huawei.hms:hianalytics:4.0.3.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\b2412b698e1741161f90f2b2c5f2b75c\jetified-hianalytics-4.0.3.300\AndroidManifest.xml:20:13-80
+120            android:value="1" />
+120-->[com.huawei.hms:hianalytics:4.0.3.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\b2412b698e1741161f90f2b2c5f2b75c\jetified-hianalytics-4.0.3.300\AndroidManifest.xml:21:13-30
+121
+122        <receiver
+122-->[com.huawei.hms:hianalytics:4.0.3.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\b2412b698e1741161f90f2b2c5f2b75c\jetified-hianalytics-4.0.3.300\AndroidManifest.xml:23:9-29:20
+123            android:name="com.huawei.hms.analytics.receiver.HiAnalyticsSvcEvtReceiver"
+123-->[com.huawei.hms:hianalytics:4.0.3.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\b2412b698e1741161f90f2b2c5f2b75c\jetified-hianalytics-4.0.3.300\AndroidManifest.xml:24:13-87
+124            android:exported="false" >
+124-->[com.huawei.hms:hianalytics:4.0.3.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\b2412b698e1741161f90f2b2c5f2b75c\jetified-hianalytics-4.0.3.300\AndroidManifest.xml:25:13-37
+125            <intent-filter>
+125-->[com.huawei.hms:hianalytics:4.0.3.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\b2412b698e1741161f90f2b2c5f2b75c\jetified-hianalytics-4.0.3.300\AndroidManifest.xml:26:13-28:29
+126                <action android:name="com.huawei.hms.analytics.pps.event" />
+126-->[com.huawei.hms:hianalytics:4.0.3.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\b2412b698e1741161f90f2b2c5f2b75c\jetified-hianalytics-4.0.3.300\AndroidManifest.xml:27:17-77
+126-->[com.huawei.hms:hianalytics:4.0.3.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\b2412b698e1741161f90f2b2c5f2b75c\jetified-hianalytics-4.0.3.300\AndroidManifest.xml:27:25-74
+127            </intent-filter>
+128        </receiver>
+129        <receiver
+129-->[com.huawei.hms:push:4.0.2.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\f95bfc33991ebf29406101c3032f98cc\jetified-push-4.0.2.300\AndroidManifest.xml:24:9-34:20
+130            android:name="com.huawei.hms.support.api.push.PushMsgReceiver"
+130-->[com.huawei.hms:push:4.0.2.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\f95bfc33991ebf29406101c3032f98cc\jetified-push-4.0.2.300\AndroidManifest.xml:25:13-75
+131            android:permission="com.example.salvadore.permission.PROCESS_PUSH_MSG" >
+131-->[com.huawei.hms:push:4.0.2.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\f95bfc33991ebf29406101c3032f98cc\jetified-push-4.0.2.300\AndroidManifest.xml:26:13-78
+132            <intent-filter>
+132-->[com.huawei.hms:push:4.0.2.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\f95bfc33991ebf29406101c3032f98cc\jetified-push-4.0.2.300\AndroidManifest.xml:27:13-33:29
+133
+134                <!-- 必须, 用于接收通知栏消息点击事件 -->
+135                <action android:name="com.huawei.intent.action.PUSH_DELAY_NOTIFY" />
+135-->[com.huawei.hms:push:4.0.2.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\f95bfc33991ebf29406101c3032f98cc\jetified-push-4.0.2.300\AndroidManifest.xml:30:17-85
+135-->[com.huawei.hms:push:4.0.2.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\f95bfc33991ebf29406101c3032f98cc\jetified-push-4.0.2.300\AndroidManifest.xml:30:25-82
+136                <!-- 可选，兼容老的华为手机 -->
+137                <action android:name="com.huawei.intent.action.PUSH" />
+137-->[com.huawei.hms:push:4.0.2.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\f95bfc33991ebf29406101c3032f98cc\jetified-push-4.0.2.300\AndroidManifest.xml:32:17-72
+137-->[com.huawei.hms:push:4.0.2.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\f95bfc33991ebf29406101c3032f98cc\jetified-push-4.0.2.300\AndroidManifest.xml:32:25-69
+138            </intent-filter>
+139        </receiver>
+140        <receiver
+140-->[com.huawei.hms:push:4.0.2.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\f95bfc33991ebf29406101c3032f98cc\jetified-push-4.0.2.300\AndroidManifest.xml:35:9-45:20
+141            android:name="com.huawei.hms.support.api.push.PushReceiver"
+141-->[com.huawei.hms:push:4.0.2.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\f95bfc33991ebf29406101c3032f98cc\jetified-push-4.0.2.300\AndroidManifest.xml:36:13-72
+142            android:permission="com.example.salvadore.permission.PROCESS_PUSH_MSG" >
+142-->[com.huawei.hms:push:4.0.2.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\f95bfc33991ebf29406101c3032f98cc\jetified-push-4.0.2.300\AndroidManifest.xml:37:13-78
+143            <intent-filter>
+143-->[com.huawei.hms:push:4.0.2.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\f95bfc33991ebf29406101c3032f98cc\jetified-push-4.0.2.300\AndroidManifest.xml:38:13-44:29
+144
+145                <!-- 必须,用于接收token -->
+146                <action android:name="com.huawei.android.push.intent.REGISTRATION" />
+146-->[com.huawei.hms:push:4.0.2.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\f95bfc33991ebf29406101c3032f98cc\jetified-push-4.0.2.300\AndroidManifest.xml:41:17-86
+146-->[com.huawei.hms:push:4.0.2.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\f95bfc33991ebf29406101c3032f98cc\jetified-push-4.0.2.300\AndroidManifest.xml:41:25-83
+147                <!-- 必须, 用于接收消息 -->
+148                <action android:name="com.huawei.android.push.intent.RECEIVE" />
+148-->[com.huawei.hms:push:4.0.2.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\f95bfc33991ebf29406101c3032f98cc\jetified-push-4.0.2.300\AndroidManifest.xml:43:17-81
+148-->[com.huawei.hms:push:4.0.2.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\f95bfc33991ebf29406101c3032f98cc\jetified-push-4.0.2.300\AndroidManifest.xml:43:25-78
+149            </intent-filter>
+150        </receiver> <!-- 非华为手机通知栏和透传消息的接收服务定义 -->
+151        <service
+151-->[com.huawei.hms:push:4.0.2.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\f95bfc33991ebf29406101c3032f98cc\jetified-push-4.0.2.300\AndroidManifest.xml:48:9-57:19
+152            android:name="com.huawei.hms.support.api.push.service.HmsMsgService"
+152-->[com.huawei.hms:push:4.0.2.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\f95bfc33991ebf29406101c3032f98cc\jetified-push-4.0.2.300\AndroidManifest.xml:49:13-81
+153            android:enabled="true"
+153-->[com.huawei.hms:push:4.0.2.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\f95bfc33991ebf29406101c3032f98cc\jetified-push-4.0.2.300\AndroidManifest.xml:50:13-35
+154            android:exported="true"
+154-->[com.huawei.hms:push:4.0.2.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\f95bfc33991ebf29406101c3032f98cc\jetified-push-4.0.2.300\AndroidManifest.xml:51:13-36
+155            android:process=":pushservice" >
+155-->[com.huawei.hms:push:4.0.2.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\f95bfc33991ebf29406101c3032f98cc\jetified-push-4.0.2.300\AndroidManifest.xml:52:13-43
+156            <intent-filter>
+156-->[com.huawei.hms:push:4.0.2.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\f95bfc33991ebf29406101c3032f98cc\jetified-push-4.0.2.300\AndroidManifest.xml:53:13-56:29
+157                <action android:name="com.huawei.push.msg.NOTIFY_MSG" />
+157-->[com.huawei.hms:push:4.0.2.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\f95bfc33991ebf29406101c3032f98cc\jetified-push-4.0.2.300\AndroidManifest.xml:54:17-73
+157-->[com.huawei.hms:push:4.0.2.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\f95bfc33991ebf29406101c3032f98cc\jetified-push-4.0.2.300\AndroidManifest.xml:54:25-70
+158                <action android:name="com.huawei.push.msg.PASSBY_MSG" />
+158-->[com.huawei.hms:push:4.0.2.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\f95bfc33991ebf29406101c3032f98cc\jetified-push-4.0.2.300\AndroidManifest.xml:55:17-73
+158-->[com.huawei.hms:push:4.0.2.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\f95bfc33991ebf29406101c3032f98cc\jetified-push-4.0.2.300\AndroidManifest.xml:55:25-70
+159            </intent-filter>
+160        </service>
+161
+162        <provider
+162-->[com.huawei.hms:push:4.0.2.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\f95bfc33991ebf29406101c3032f98cc\jetified-push-4.0.2.300\AndroidManifest.xml:59:9-65:89
+163            android:name="com.huawei.hms.support.api.push.PushProvider"
+163-->[com.huawei.hms:push:4.0.2.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\f95bfc33991ebf29406101c3032f98cc\jetified-push-4.0.2.300\AndroidManifest.xml:60:13-72
+164            android:authorities="com.example.salvadore.huawei.push.provider"
+164-->[com.huawei.hms:push:4.0.2.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\f95bfc33991ebf29406101c3032f98cc\jetified-push-4.0.2.300\AndroidManifest.xml:61:13-72
+165            android:exported="true"
+165-->[com.huawei.hms:push:4.0.2.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\f95bfc33991ebf29406101c3032f98cc\jetified-push-4.0.2.300\AndroidManifest.xml:62:13-36
+166            android:permission="com.example.salvadore.permission.PUSH_PROVIDER"
+166-->[com.huawei.hms:push:4.0.2.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\f95bfc33991ebf29406101c3032f98cc\jetified-push-4.0.2.300\AndroidManifest.xml:63:13-75
+167            android:readPermission="com.example.salvadore.permission.PUSH_PROVIDER"
+167-->[com.huawei.hms:push:4.0.2.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\f95bfc33991ebf29406101c3032f98cc\jetified-push-4.0.2.300\AndroidManifest.xml:64:13-79
+168            android:writePermission="com.example.salvadore.permission.PUSH_WRITE_PROVIDER" />
+168-->[com.huawei.hms:push:4.0.2.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\f95bfc33991ebf29406101c3032f98cc\jetified-push-4.0.2.300\AndroidManifest.xml:65:13-86
+169
+170        <meta-data
+170-->[com.huawei.hms:push:4.0.2.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\f95bfc33991ebf29406101c3032f98cc\jetified-push-4.0.2.300\AndroidManifest.xml:67:9-69:46
+171            android:name="com.huawei.hms.client.service.name:push"
+171-->[com.huawei.hms:push:4.0.2.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\f95bfc33991ebf29406101c3032f98cc\jetified-push-4.0.2.300\AndroidManifest.xml:68:13-67
+172            android:value="push:4.0.2.300" />
+172-->[com.huawei.hms:push:4.0.2.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\f95bfc33991ebf29406101c3032f98cc\jetified-push-4.0.2.300\AndroidManifest.xml:69:13-43
+173        <meta-data
+173-->[com.huawei.hms:push:4.0.2.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\f95bfc33991ebf29406101c3032f98cc\jetified-push-4.0.2.300\AndroidManifest.xml:70:9-72:33
+174            android:name="com.huawei.hms.min_api_level:push:push"
+174-->[com.huawei.hms:push:4.0.2.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\f95bfc33991ebf29406101c3032f98cc\jetified-push-4.0.2.300\AndroidManifest.xml:71:13-66
+175            android:value="1" /> <!-- 声明Kit SDK的名称和版本号 -->
+175-->[com.huawei.hms:push:4.0.2.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\f95bfc33991ebf29406101c3032f98cc\jetified-push-4.0.2.300\AndroidManifest.xml:72:13-30
+176        <meta-data
+176-->[com.huawei.hms:location:4.0.2.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\cb482a201a04dccbd9e808b5a59a2d96\jetified-location-4.0.2.300\AndroidManifest.xml:14:9-16:50
+177            android:name="com.huawei.hms.client.service.name:location"
+177-->[com.huawei.hms:location:4.0.2.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\cb482a201a04dccbd9e808b5a59a2d96\jetified-location-4.0.2.300\AndroidManifest.xml:15:13-71
+178            android:value="location:4.0.2.300" /> <!-- 声明对Kit服务依赖的最低API Level -->
+178-->[com.huawei.hms:location:4.0.2.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\cb482a201a04dccbd9e808b5a59a2d96\jetified-location-4.0.2.300\AndroidManifest.xml:16:13-47
+179        <meta-data
+179-->[com.huawei.hms:location:4.0.2.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\cb482a201a04dccbd9e808b5a59a2d96\jetified-location-4.0.2.300\AndroidManifest.xml:18:9-20:33
+180            android:name="com.huawei.hms.min_api_level:location:location"
+180-->[com.huawei.hms:location:4.0.2.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\cb482a201a04dccbd9e808b5a59a2d96\jetified-location-4.0.2.300\AndroidManifest.xml:19:13-74
+181            android:value="1" />
+181-->[com.huawei.hms:location:4.0.2.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\cb482a201a04dccbd9e808b5a59a2d96\jetified-location-4.0.2.300\AndroidManifest.xml:20:13-30
+182        <meta-data
+182-->[com.huawei.hms:maps:4.0.0.302] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\e1072c89c0992f709379b4937c356a6f\jetified-maps-4.0.0.302\AndroidManifest.xml:12:9-14:41
+183            android:name="com.huawei.hms.version"
+183-->[com.huawei.hms:maps:4.0.0.302] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\e1072c89c0992f709379b4937c356a6f\jetified-maps-4.0.0.302\AndroidManifest.xml:13:13-50
+184            android:value="4.0.1.300" />
+184-->[com.huawei.hms:maps:4.0.0.302] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\e1072c89c0992f709379b4937c356a6f\jetified-maps-4.0.0.302\AndroidManifest.xml:14:13-38
+185        <meta-data
+185-->[com.huawei.hms:maps:4.0.0.302] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\e1072c89c0992f709379b4937c356a6f\jetified-maps-4.0.0.302\AndroidManifest.xml:15:9-17:46
+186            android:name="com.huawei.hms.client.service.name:maps"
+186-->[com.huawei.hms:maps:4.0.0.302] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\e1072c89c0992f709379b4937c356a6f\jetified-maps-4.0.0.302\AndroidManifest.xml:16:13-67
+187            android:value="maps:4.0.0.302" />
+187-->[com.huawei.hms:maps:4.0.0.302] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\e1072c89c0992f709379b4937c356a6f\jetified-maps-4.0.0.302\AndroidManifest.xml:17:13-43
+188        <meta-data
+188-->[com.huawei.hms:maps:4.0.0.302] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\e1072c89c0992f709379b4937c356a6f\jetified-maps-4.0.0.302\AndroidManifest.xml:18:9-20:33
+189            android:name="com.huawei.hms.min_api_level:maps:huawei_module_maps"
+189-->[com.huawei.hms:maps:4.0.0.302] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\e1072c89c0992f709379b4937c356a6f\jetified-maps-4.0.0.302\AndroidManifest.xml:19:13-80
+190            android:value="1" />
+190-->[com.huawei.hms:maps:4.0.0.302] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\e1072c89c0992f709379b4937c356a6f\jetified-maps-4.0.0.302\AndroidManifest.xml:20:13-30
+191        <meta-data
+191-->[com.huawei.hms:site:4.0.2.301] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\65a6dd26dc50ddd036b1842fe776824e\jetified-site-4.0.2.301\AndroidManifest.xml:12:9-14:46
+192            android:name="com.huawei.hms.client.service.name:site"
+192-->[com.huawei.hms:site:4.0.2.301] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\65a6dd26dc50ddd036b1842fe776824e\jetified-site-4.0.2.301\AndroidManifest.xml:13:13-67
+193            android:value="site:4.0.2.300" />
+193-->[com.huawei.hms:site:4.0.2.301] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\65a6dd26dc50ddd036b1842fe776824e\jetified-site-4.0.2.301\AndroidManifest.xml:14:13-43
+194        <meta-data
+194-->[com.huawei.hms:site:4.0.2.301] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\65a6dd26dc50ddd036b1842fe776824e\jetified-site-4.0.2.301\AndroidManifest.xml:15:9-17:33
+195            android:name="com.huawei.hms.min_api_level:site:site"
+195-->[com.huawei.hms:site:4.0.2.301] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\65a6dd26dc50ddd036b1842fe776824e\jetified-site-4.0.2.301\AndroidManifest.xml:16:13-66
+196            android:value="1" />
+196-->[com.huawei.hms:site:4.0.2.301] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\65a6dd26dc50ddd036b1842fe776824e\jetified-site-4.0.2.301\AndroidManifest.xml:17:13-30
+197        <meta-data
+197-->[com.huawei.hms:safetydetect:4.0.3.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\22c47fafdc690c7b7f34cdabf016c69f\jetified-safetydetect-4.0.3.300\AndroidManifest.xml:11:9-13:54
+198            android:name="com.huawei.hms.client.service.name:safetydetect"
+198-->[com.huawei.hms:safetydetect:4.0.3.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\22c47fafdc690c7b7f34cdabf016c69f\jetified-safetydetect-4.0.3.300\AndroidManifest.xml:12:13-75
+199            android:value="safetydetect:4.0.0.300" />
+199-->[com.huawei.hms:safetydetect:4.0.3.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\22c47fafdc690c7b7f34cdabf016c69f\jetified-safetydetect-4.0.3.300\AndroidManifest.xml:13:13-51
+200        <meta-data
+200-->[com.huawei.hms:safetydetect:4.0.3.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\22c47fafdc690c7b7f34cdabf016c69f\jetified-safetydetect-4.0.3.300\AndroidManifest.xml:14:9-16:33
+201            android:name="com.huawei.hms.min_api_level:safetydetect:safetydetect"
+201-->[com.huawei.hms:safetydetect:4.0.3.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\22c47fafdc690c7b7f34cdabf016c69f\jetified-safetydetect-4.0.3.300\AndroidManifest.xml:15:13-82
+202            android:value="1" />
+202-->[com.huawei.hms:safetydetect:4.0.3.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\22c47fafdc690c7b7f34cdabf016c69f\jetified-safetydetect-4.0.3.300\AndroidManifest.xml:16:13-30
+203
+204        <activity
+204-->[com.huawei.hms:hwid:4.0.1.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\c6b37c706166927b64d17ea0f63afb3c\jetified-hwid-4.0.1.300\AndroidManifest.xml:10:9-15:20
+205            android:name="com.huawei.hms.hwid.internal.ui.activity.HwIdSignInHubActivity"
+205-->[com.huawei.hms:hwid:4.0.1.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\c6b37c706166927b64d17ea0f63afb3c\jetified-hwid-4.0.1.300\AndroidManifest.xml:11:13-90
+206            android:excludeFromRecents="true"
+206-->[com.huawei.hms:hwid:4.0.1.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\c6b37c706166927b64d17ea0f63afb3c\jetified-hwid-4.0.1.300\AndroidManifest.xml:12:13-46
+207            android:exported="false"
+207-->[com.huawei.hms:hwid:4.0.1.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\c6b37c706166927b64d17ea0f63afb3c\jetified-hwid-4.0.1.300\AndroidManifest.xml:13:13-37
+208            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+208-->[com.huawei.hms:hwid:4.0.1.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\c6b37c706166927b64d17ea0f63afb3c\jetified-hwid-4.0.1.300\AndroidManifest.xml:14:13-72
+209        </activity>
+210
+211        <meta-data
+211-->[com.huawei.hms:hwid:4.0.1.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\c6b37c706166927b64d17ea0f63afb3c\jetified-hwid-4.0.1.300\AndroidManifest.xml:17:9-19:46
+212            android:name="com.huawei.hms.client.service.name:hwid"
+212-->[com.huawei.hms:hwid:4.0.1.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\c6b37c706166927b64d17ea0f63afb3c\jetified-hwid-4.0.1.300\AndroidManifest.xml:18:13-67
+213            android:value="hwid:4.0.1.300" />
+213-->[com.huawei.hms:hwid:4.0.1.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\c6b37c706166927b64d17ea0f63afb3c\jetified-hwid-4.0.1.300\AndroidManifest.xml:19:13-43
+214        <meta-data
+214-->[com.huawei.hms:hwid:4.0.1.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\c6b37c706166927b64d17ea0f63afb3c\jetified-hwid-4.0.1.300\AndroidManifest.xml:20:9-22:33
+215            android:name="com.huawei.hms.min_api_level:hwid:hwid"
+215-->[com.huawei.hms:hwid:4.0.1.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\c6b37c706166927b64d17ea0f63afb3c\jetified-hwid-4.0.1.300\AndroidManifest.xml:21:13-66
+216            android:value="1" />
+216-->[com.huawei.hms:hwid:4.0.1.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\c6b37c706166927b64d17ea0f63afb3c\jetified-hwid-4.0.1.300\AndroidManifest.xml:22:13-30
+217
+218        <uses-library
+218-->[com.huawei.agconnect:agconnect-credential:1.3.1.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\29bfcaf6d8b57334b2783315a9105d92\jetified-agconnect-credential-1.3.1.300\AndroidManifest.xml:21:9-23:40
+219            android:name="org.apache.http.legacy"
+219-->[com.huawei.agconnect:agconnect-credential:1.3.1.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\29bfcaf6d8b57334b2783315a9105d92\jetified-agconnect-credential-1.3.1.300\AndroidManifest.xml:22:13-50
+220            android:required="false" />
+220-->[com.huawei.agconnect:agconnect-credential:1.3.1.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\29bfcaf6d8b57334b2783315a9105d92\jetified-agconnect-credential-1.3.1.300\AndroidManifest.xml:23:13-37
+221
+222        <provider
+222-->[com.squareup.picasso:picasso:2.71828] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\966e4cceae24d5be5b8edc47ac8d369a\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+223            android:name="com.squareup.picasso.PicassoProvider"
+223-->[com.squareup.picasso:picasso:2.71828] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\966e4cceae24d5be5b8edc47ac8d369a\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+224            android:authorities="com.example.salvadore.com.squareup.picasso"
+224-->[com.squareup.picasso:picasso:2.71828] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\966e4cceae24d5be5b8edc47ac8d369a\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+225            android:exported="false" />
+225-->[com.squareup.picasso:picasso:2.71828] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\966e4cceae24d5be5b8edc47ac8d369a\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+226        <provider
+226-->[com.huawei.hms:opendevice:4.0.1.301] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\f7780c2dfe2daf647716188547a99743\jetified-opendevice-4.0.1.301\AndroidManifest.xml:10:9-13:40
+227            android:name="com.huawei.hms.aaid.InitProvider"
+227-->[com.huawei.hms:opendevice:4.0.1.301] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\f7780c2dfe2daf647716188547a99743\jetified-opendevice-4.0.1.301\AndroidManifest.xml:11:13-60
+228            android:authorities="com.example.salvadore.aaidinitprovider"
+228-->[com.huawei.hms:opendevice:4.0.1.301] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\f7780c2dfe2daf647716188547a99743\jetified-opendevice-4.0.1.301\AndroidManifest.xml:12:13-68
+229            android:exported="false" />
+229-->[com.huawei.hms:opendevice:4.0.1.301] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\f7780c2dfe2daf647716188547a99743\jetified-opendevice-4.0.1.301\AndroidManifest.xml:13:13-37
+230
+231        <meta-data
+231-->[com.huawei.hms:opendevice:4.0.1.301] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\f7780c2dfe2daf647716188547a99743\jetified-opendevice-4.0.1.301\AndroidManifest.xml:15:9-17:52
+232            android:name="com.huawei.hms.client.service.name:opendevice"
+232-->[com.huawei.hms:opendevice:4.0.1.301] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\f7780c2dfe2daf647716188547a99743\jetified-opendevice-4.0.1.301\AndroidManifest.xml:16:13-73
+233            android:value="opendevice:4.0.1.301" />
+233-->[com.huawei.hms:opendevice:4.0.1.301] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\f7780c2dfe2daf647716188547a99743\jetified-opendevice-4.0.1.301\AndroidManifest.xml:17:13-49
+234        <meta-data
+234-->[com.huawei.hms:opendevice:4.0.1.301] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\f7780c2dfe2daf647716188547a99743\jetified-opendevice-4.0.1.301\AndroidManifest.xml:18:9-20:33
+235            android:name="com.huawei.hms.min_api_level:opendevice:push"
+235-->[com.huawei.hms:opendevice:4.0.1.301] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\f7780c2dfe2daf647716188547a99743\jetified-opendevice-4.0.1.301\AndroidManifest.xml:19:13-72
+236            android:value="1" />
+236-->[com.huawei.hms:opendevice:4.0.1.301] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\f7780c2dfe2daf647716188547a99743\jetified-opendevice-4.0.1.301\AndroidManifest.xml:20:13-30
+237        <!--
+238        为后续统计第三方app集成了哪些Kit，因此需要Kit在自己的AndroidManifest.xml文件中定义业务标签元数据，
+239        流水线打包时会替换成HMSVER对应的版本号，不要手动修改
+240        -->
+241        <meta-data
+241-->[com.huawei.hms:base:4.0.3.301] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\9f5dcc49828ca60c0eb95043290a756a\jetified-base-4.0.3.301\AndroidManifest.xml:18:9-20:46
+242            android:name="com.huawei.hms.client.service.name:base"
+242-->[com.huawei.hms:base:4.0.3.301] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\9f5dcc49828ca60c0eb95043290a756a\jetified-base-4.0.3.301\AndroidManifest.xml:19:13-67
+243            android:value="base:4.0.3.301" /> <!-- SDK依赖的HMSCore的最低api level元数据 -->
+243-->[com.huawei.hms:base:4.0.3.301] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\9f5dcc49828ca60c0eb95043290a756a\jetified-base-4.0.3.301\AndroidManifest.xml:20:13-43
+244        <meta-data
+244-->[com.huawei.hms:base:4.0.3.301] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\9f5dcc49828ca60c0eb95043290a756a\jetified-base-4.0.3.301\AndroidManifest.xml:23:9-25:33
+245            android:name="com.huawei.hms.min_api_level:base:hmscore"
+245-->[com.huawei.hms:base:4.0.3.301] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\9f5dcc49828ca60c0eb95043290a756a\jetified-base-4.0.3.301\AndroidManifest.xml:24:13-69
+246            android:value="1" /> <!-- 用于判断是否集成了本lib -->
+246-->[com.huawei.hms:base:4.0.3.301] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\9f5dcc49828ca60c0eb95043290a756a\jetified-base-4.0.3.301\AndroidManifest.xml:25:13-30
+247        <meta-data
+247-->[com.huawei.hms:availableupdate:4.0.3.301] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\8f6e9d04bffbff1908511e17d3afb0b4\jetified-availableupdate-4.0.3.301\AndroidManifest.xml:23:9-25:35
+248            android:name="availableLoaded"
+248-->[com.huawei.hms:availableupdate:4.0.3.301] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\8f6e9d04bffbff1908511e17d3afb0b4\jetified-availableupdate-4.0.3.301\AndroidManifest.xml:24:13-43
+249            android:value="yes" />
+249-->[com.huawei.hms:availableupdate:4.0.3.301] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\8f6e9d04bffbff1908511e17d3afb0b4\jetified-availableupdate-4.0.3.301\AndroidManifest.xml:25:13-32
+250
+251        <provider
+251-->[com.huawei.hms:availableupdate:4.0.3.301] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\8f6e9d04bffbff1908511e17d3afb0b4\jetified-availableupdate-4.0.3.301\AndroidManifest.xml:27:9-32:20
+252            android:name="com.huawei.hms.update.provider.UpdateProvider"
+252-->[com.huawei.hms:availableupdate:4.0.3.301] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\8f6e9d04bffbff1908511e17d3afb0b4\jetified-availableupdate-4.0.3.301\AndroidManifest.xml:28:13-73
+253            android:authorities="com.example.salvadore.hms.update.provider"
+253-->[com.huawei.hms:availableupdate:4.0.3.301] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\8f6e9d04bffbff1908511e17d3afb0b4\jetified-availableupdate-4.0.3.301\AndroidManifest.xml:29:13-71
+254            android:exported="false"
+254-->[com.huawei.hms:availableupdate:4.0.3.301] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\8f6e9d04bffbff1908511e17d3afb0b4\jetified-availableupdate-4.0.3.301\AndroidManifest.xml:30:13-37
+255            android:grantUriPermissions="true" >
+255-->[com.huawei.hms:availableupdate:4.0.3.301] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\8f6e9d04bffbff1908511e17d3afb0b4\jetified-availableupdate-4.0.3.301\AndroidManifest.xml:31:13-47
+256        </provider>
+257        <provider
+257-->[com.huawei.agconnect:agconnect-core:1.3.1.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\c3820d1f36282284f7f2c4cc4df7fbf1\jetified-agconnect-core-1.3.1.300\AndroidManifest.xml:11:9-14:40
+258            android:name="com.huawei.agconnect.core.provider.AGConnectInitializeProvider"
+258-->[com.huawei.agconnect:agconnect-core:1.3.1.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\c3820d1f36282284f7f2c4cc4df7fbf1\jetified-agconnect-core-1.3.1.300\AndroidManifest.xml:12:13-90
+259            android:authorities="com.example.salvadore.AGCInitializeProvider"
+259-->[com.huawei.agconnect:agconnect-core:1.3.1.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\c3820d1f36282284f7f2c4cc4df7fbf1\jetified-agconnect-core-1.3.1.300\AndroidManifest.xml:13:13-73
+260            android:exported="false" />
+260-->[com.huawei.agconnect:agconnect-core:1.3.1.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\c3820d1f36282284f7f2c4cc4df7fbf1\jetified-agconnect-core-1.3.1.300\AndroidManifest.xml:14:13-37
+261
+262        <meta-data
+262-->[com.huawei.hms:dynamic-api:1.0.13.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\e2c1f6f6d14405dcca29a88cfe5cfd14\jetified-dynamic-api-1.0.13.300\AndroidManifest.xml:12:9-14:54
+263            android:name="com.huawei.hms.client.service.name:dynamic-api"
+263-->[com.huawei.hms:dynamic-api:1.0.13.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\e2c1f6f6d14405dcca29a88cfe5cfd14\jetified-dynamic-api-1.0.13.300\AndroidManifest.xml:13:13-74
+264            android:value="dynamic-api:1.0.13.300" />
+264-->[com.huawei.hms:dynamic-api:1.0.13.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\e2c1f6f6d14405dcca29a88cfe5cfd14\jetified-dynamic-api-1.0.13.300\AndroidManifest.xml:14:13-51
+265        <meta-data
+265-->[com.huawei.hms:dynamic-api:1.0.13.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\e2c1f6f6d14405dcca29a88cfe5cfd14\jetified-dynamic-api-1.0.13.300\AndroidManifest.xml:15:9-17:33
+266            android:name="com.huawei.hms.min_api_level:dynamic-api:huawei_module_dynamicloader"
+266-->[com.huawei.hms:dynamic-api:1.0.13.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\e2c1f6f6d14405dcca29a88cfe5cfd14\jetified-dynamic-api-1.0.13.300\AndroidManifest.xml:16:13-96
+267            android:value="2" />
+267-->[com.huawei.hms:dynamic-api:1.0.13.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\e2c1f6f6d14405dcca29a88cfe5cfd14\jetified-dynamic-api-1.0.13.300\AndroidManifest.xml:17:13-30
+268
+269        <activity
+269-->[com.huawei.hms:ui:4.0.3.301] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\c6a88b18f2ce76192175d0b28cf54f0b\jetified-ui-4.0.3.301\AndroidManifest.xml:10:9-20:20
+270            android:name="com.huawei.hms.activity.BridgeActivity"
+270-->[com.huawei.hms:ui:4.0.3.301] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\c6a88b18f2ce76192175d0b28cf54f0b\jetified-ui-4.0.3.301\AndroidManifest.xml:11:13-66
+271            android:configChanges="orientation|locale|layoutDirection|fontScale|screenSize|smallestScreenSize|screenLayout"
+271-->[com.huawei.hms:ui:4.0.3.301] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\c6a88b18f2ce76192175d0b28cf54f0b\jetified-ui-4.0.3.301\AndroidManifest.xml:12:13-124
+272            android:excludeFromRecents="true"
+272-->[com.huawei.hms:ui:4.0.3.301] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\c6a88b18f2ce76192175d0b28cf54f0b\jetified-ui-4.0.3.301\AndroidManifest.xml:13:13-46
+273            android:exported="false"
+273-->[com.huawei.hms:ui:4.0.3.301] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\c6a88b18f2ce76192175d0b28cf54f0b\jetified-ui-4.0.3.301\AndroidManifest.xml:14:13-37
+274            android:hardwareAccelerated="true"
+274-->[com.huawei.hms:ui:4.0.3.301] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\c6a88b18f2ce76192175d0b28cf54f0b\jetified-ui-4.0.3.301\AndroidManifest.xml:15:13-47
+275            android:theme="@android:style/Theme.Translucent" >
+275-->[com.huawei.hms:ui:4.0.3.301] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\c6a88b18f2ce76192175d0b28cf54f0b\jetified-ui-4.0.3.301\AndroidManifest.xml:16:13-61
+276            <meta-data
+276-->[com.huawei.hms:ui:4.0.3.301] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\c6a88b18f2ce76192175d0b28cf54f0b\jetified-ui-4.0.3.301\AndroidManifest.xml:17:13-19:77
+277                android:name="hwc-theme"
+277-->[com.huawei.hms:ui:4.0.3.301] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\c6a88b18f2ce76192175d0b28cf54f0b\jetified-ui-4.0.3.301\AndroidManifest.xml:18:17-41
+278                android:value="androidhwext:style/Theme.Emui.Translucent" />
+278-->[com.huawei.hms:ui:4.0.3.301] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\c6a88b18f2ce76192175d0b28cf54f0b\jetified-ui-4.0.3.301\AndroidManifest.xml:19:17-74
+279        </activity>
+280        <activity
+280-->[com.huawei.hms:ui:4.0.3.301] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\c6a88b18f2ce76192175d0b28cf54f0b\jetified-ui-4.0.3.301\AndroidManifest.xml:21:9-24:20
+281            android:name="com.huawei.hms.activity.EnableServiceActivity"
+281-->[com.huawei.hms:ui:4.0.3.301] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\c6a88b18f2ce76192175d0b28cf54f0b\jetified-ui-4.0.3.301\AndroidManifest.xml:22:13-73
+282            android:configChanges="orientation|keyboardHidden|screenSize|smallestScreenSize|screenLayout" >
+282-->[com.huawei.hms:ui:4.0.3.301] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\c6a88b18f2ce76192175d0b28cf54f0b\jetified-ui-4.0.3.301\AndroidManifest.xml:23:13-106
+283        </activity>
+284        <activity
+284-->[com.huawei.hms:update:2.0.6.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\1f6ad1192fcc5691eecd6498ce5dad76\jetified-update-2.0.6.300\AndroidManifest.xml:21:9-29:20
+285            android:name="com.huawei.updatesdk.service.otaupdate.AppUpdateActivity"
+285-->[com.huawei.hms:update:2.0.6.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\1f6ad1192fcc5691eecd6498ce5dad76\jetified-update-2.0.6.300\AndroidManifest.xml:22:13-84
+286            android:configChanges="orientation|screenSize"
+286-->[com.huawei.hms:update:2.0.6.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\1f6ad1192fcc5691eecd6498ce5dad76\jetified-update-2.0.6.300\AndroidManifest.xml:23:13-59
+287            android:exported="false"
+287-->[com.huawei.hms:update:2.0.6.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\1f6ad1192fcc5691eecd6498ce5dad76\jetified-update-2.0.6.300\AndroidManifest.xml:24:13-37
+288            android:theme="@style/upsdkDlDialog" >
+288-->[com.huawei.hms:update:2.0.6.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\1f6ad1192fcc5691eecd6498ce5dad76\jetified-update-2.0.6.300\AndroidManifest.xml:25:13-49
+289            <meta-data
+289-->[com.huawei.hms:ui:4.0.3.301] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\c6a88b18f2ce76192175d0b28cf54f0b\jetified-ui-4.0.3.301\AndroidManifest.xml:17:13-19:77
+290                android:name="hwc-theme"
+290-->[com.huawei.hms:ui:4.0.3.301] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\c6a88b18f2ce76192175d0b28cf54f0b\jetified-ui-4.0.3.301\AndroidManifest.xml:18:17-41
+291                android:value="androidhwext:style/Theme.Emui.Translucent.NoTitleBar" />
+291-->[com.huawei.hms:ui:4.0.3.301] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\c6a88b18f2ce76192175d0b28cf54f0b\jetified-ui-4.0.3.301\AndroidManifest.xml:19:17-74
+292        </activity>
+293        <activity
+293-->[com.huawei.hms:update:2.0.6.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\1f6ad1192fcc5691eecd6498ce5dad76\jetified-update-2.0.6.300\AndroidManifest.xml:30:9-38:20
+294            android:name="com.huawei.updatesdk.support.pm.PackageInstallerActivity"
+294-->[com.huawei.hms:update:2.0.6.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\1f6ad1192fcc5691eecd6498ce5dad76\jetified-update-2.0.6.300\AndroidManifest.xml:31:13-84
+295            android:configChanges="orientation|keyboardHidden|screenSize"
+295-->[com.huawei.hms:update:2.0.6.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\1f6ad1192fcc5691eecd6498ce5dad76\jetified-update-2.0.6.300\AndroidManifest.xml:32:13-74
+296            android:exported="false"
+296-->[com.huawei.hms:update:2.0.6.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\1f6ad1192fcc5691eecd6498ce5dad76\jetified-update-2.0.6.300\AndroidManifest.xml:33:13-37
+297            android:theme="@style/upsdkDlDialog" >
+297-->[com.huawei.hms:update:2.0.6.300] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\1f6ad1192fcc5691eecd6498ce5dad76\jetified-update-2.0.6.300\AndroidManifest.xml:34:13-49
+298            <meta-data
+298-->[com.huawei.hms:ui:4.0.3.301] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\c6a88b18f2ce76192175d0b28cf54f0b\jetified-ui-4.0.3.301\AndroidManifest.xml:17:13-19:77
+299                android:name="hwc-theme"
+299-->[com.huawei.hms:ui:4.0.3.301] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\c6a88b18f2ce76192175d0b28cf54f0b\jetified-ui-4.0.3.301\AndroidManifest.xml:18:17-41
+300                android:value="androidhwext:style/Theme.Emui.Translucent" />
+300-->[com.huawei.hms:ui:4.0.3.301] C:\Users\b84158088\.gradle\caches\transforms-2\files-2.1\c6a88b18f2ce76192175d0b28cf54f0b\jetified-ui-4.0.3.301\AndroidManifest.xml:19:17-74
+301        </activity>
+302    </application>
+303
+304</manifest>

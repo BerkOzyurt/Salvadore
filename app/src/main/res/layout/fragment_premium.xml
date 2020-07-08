@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/white_background"
+        android:layout_marginTop="15dp"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/linearLayout_quickHelp">
+
+            <ImageView
+                android:layout_width="225dp"
+                android:layout_height="150dp"
+                android:src="@drawable/main_logo"
+                android:layout_gravity="center"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="What is premium Salvadore?"
+                android:fontFamily="@font/muli_regular"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:layout_marginTop="15dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Thanks to Salvador Premium, you can add 3+ contacts. \n Also your help request will notify to your contct by SMS \n If you want to buy, you can click 'Buy' button. \n"
+                android:layout_gravity="center"
+                android:fontFamily="@font/muli_regular"
+                android:gravity="center"
+                android:textSize="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"/>
+        </LinearLayout>
+
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/gray_background"
+            android:text="Buy"
+            android:id="@+id/btn_buy"
+            android:fontFamily="@font/muli_regular"
+            android:textColor="@android:color/white"
+            android:textAllCaps="false"
+            android:layout_gravity="center"
+            android:paddingLeft="50dp"
+            android:paddingRight="50dp"
+            android:layout_marginBottom="50dp"/>
+    </LinearLayout>
+</ScrollView>

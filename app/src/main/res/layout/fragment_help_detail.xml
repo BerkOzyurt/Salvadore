@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="25dp"
+        android:background="@drawable/white_background"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:gravity="left|center_vertical"
+            android:orientation="vertical"
+            android:paddingLeft="5dp"
+            android:paddingTop="2dp"
+            android:paddingRight="5dp"
+            android:paddingBottom="2dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:padding="10dp">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:src="@drawable/main_logo"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:gravity="left"
+                    android:layout_marginLeft="10dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView_helpDetailName"
+                        android:textColor="#000000"
+                        android:fontFamily="@font/muli_regular"
+                        android:text="Berk Özyurt"
+                        android:textStyle="bold"
+                        android:textSize="16dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView_helpDetailState"
+                        android:textColor="#000000"
+                        android:fontFamily="@font/muli_regular"
+                        android:text="Help / Quick Help"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:orientation="horizontal"
+                android:layout_marginLeft="80dp">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:src="@drawable/time_icon"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:gravity="left"
+                    android:layout_marginLeft="10dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView_helpDetailDate"
+                        android:textColor="#000000"
+                        android:fontFamily="@font/muli_regular"
+                        android:text="19/03/2020 09:15"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView_helpDetailDetails"
+                android:textColor="#000000"
+                android:fontFamily="@font/muli_regular"
+                android:layout_gravity="left"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:gravity="left"
+                android:text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, "/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:src="@drawable/map_unselected"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:gravity="left"
+                    android:layout_marginLeft="10dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView_helpDetailAddress"
+                        android:textColor="#000000"
+                        android:fontFamily="@font/muli_regular"
+                        android:text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. "/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:visibility="gone"
+                android:id="@+id/linearLayout_AcceptRequest"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp">
+
+                <Button
+                    android:id="@+id/btn_helpDetailAcceptHelp"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/orange_background"
+                    android:layout_weight="1"
+                    android:text="Accept Request"
+                    android:textAllCaps="false" />
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView_helpAccepted"
+                android:visibility="gone"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:textColor="#000000"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:fontFamily="@font/muli_regular"
+                android:text="This help request accepted."/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp">
+
+                <Button
+                    android:id="@+id/btn_helpDetailCloseHelp"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/orange_background"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="5dp"
+                    android:text="Close Request"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:visibility="gone"
+                    android:id="@+id/btn_helpDetailUpdateLocation"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/orange_background"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="5dp"
+                    android:text="Update Location"
+                    android:textAllCaps="false" />
+
+
+            </LinearLayout>
+            <Button
+                android:id="@+id/btn_showMap"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/burgundy_background"
+                android:text="Show On Map"
+                android:fontFamily="@font/muli_regular"
+                android:textColor="@android:color/white"
+                android:textAllCaps="false"
+                android:layout_gravity="center"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="10dp"/>
+
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

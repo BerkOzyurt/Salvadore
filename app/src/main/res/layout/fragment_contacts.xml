@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="25dp"
+        android:background="@drawable/white_background"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:id="@+id/frame_contact1"
+            android:visibility="visible">
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="left"
+                android:layout_marginLeft="20dp">
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/person_icon"
+                    android:layout_marginRight="10dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Person 1"
+                    android:id="@+id/textView_contact1Name"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/muli_regular"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="left"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="25dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="left">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Phone Number"
+                        android:textStyle="bold"
+                        android:id="@+id/textView_contact1Phone"
+                        android:textColor="@android:color/black"
+                        android:fontFamily="@font/muli_regular"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Mail"
+                        android:textStyle="italic"
+                        android:id="@+id/textView_contact1Mail"
+                        android:textColor="@android:color/black"
+                        android:fontFamily="@font/muli_regular"/>
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:orientation="horizontal"
+                    android:layout_gravity="left"
+                    android:layout_marginLeft="20dp">
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout_editContact1"
+                        android:layout_width="35dp"
+                        android:layout_height="25dp"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/burgundy_background">
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:gravity="center"
+                            android:layout_marginTop="2.5dp"
+                            android:layout_marginLeft="7.5dp"
+                            android:src="@drawable/edit_icon_white"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="35dp"
+                        android:layout_height="25dp"
+                        android:visibility="invisible"
+                        android:layout_marginRight="10dp"
+                        android:id="@+id/linearLayout_deleteContact1"
+                        android:background="@drawable/burgundy_background">
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:gravity="center"
+                            android:layout_marginTop="2.5dp"
+                            android:layout_marginLeft="7.5dp"
+                            android:src="@drawable/delete_icon_white"
+                            android:layout_marginRight="10dp"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_gravity="right"
+            android:layout_marginTop="10dp"
+            android:background="#696969"
+            android:orientation="horizontal">
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:id="@+id/frame_contact2"
+            android:visibility="visible">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="left"
+                android:layout_marginLeft="20dp">
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/person_icon"
+                    android:layout_marginRight="10dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Person 2"
+                    android:id="@+id/textView_contact2Name"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/muli_regular"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="left"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="25dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="left">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Phone Number"
+                        android:id="@+id/textView_contact2Phone"
+                        android:textStyle="bold"
+                        android:textColor="@android:color/black"
+                        android:fontFamily="@font/muli_regular"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Mail"
+                        android:textStyle="italic"
+                        android:id="@+id/textView_contact2Mail"
+                        android:textColor="@android:color/black"
+                        android:fontFamily="@font/muli_regular"/>
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:orientation="horizontal"
+                    android:layout_gravity="left"
+                    android:layout_marginLeft="20dp">
+                    <LinearLayout
+                        android:id="@+id/linearLayout_editContact2"
+                        android:layout_width="35dp"
+                        android:layout_height="25dp"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/burgundy_background">
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:gravity="center"
+                            android:layout_marginTop="2.5dp"
+                            android:layout_marginLeft="7.5dp"
+                            android:src="@drawable/edit_icon_white"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="35dp"
+                        android:layout_height="25dp"
+                        android:layout_marginRight="10dp"
+                        android:visibility="invisible"
+                        android:id="@+id/linearLayout_deleteContact2"
+                        android:background="@drawable/burgundy_background">
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:gravity="center"
+                            android:layout_marginTop="2.5dp"
+                            android:layout_marginLeft="7.5dp"
+                            android:src="@drawable/delete_icon_white"
+                            android:layout_marginRight="10dp"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_gravity="right"
+            android:layout_marginTop="10dp"
+            android:background="#696969"
+            android:orientation="horizontal">
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:id="@+id/frame_contact3"
+            android:visibility="visible">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="left"
+                android:layout_marginLeft="20dp">
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/person_icon"
+                    android:layout_marginRight="10dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Person 3"
+                    android:id="@+id/textView_contact3Name"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/muli_regular"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="left"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="25dp">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="left">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Phone Number"
+                        android:id="@+id/textView_contact3Phone"
+                        android:textStyle="bold"
+                        android:textColor="@android:color/black"
+                        android:fontFamily="@font/muli_regular"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Mail"
+                        android:textStyle="italic"
+                        android:id="@+id/textView_contact3Mail"
+                        android:textColor="@android:color/black"
+                        android:fontFamily="@font/muli_regular"/>
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:orientation="horizontal"
+                    android:layout_gravity="left"
+                    android:layout_marginLeft="20dp">
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout_editContact3"
+                        android:layout_width="35dp"
+                        android:layout_height="25dp"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/burgundy_background">
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:gravity="center"
+                            android:layout_marginTop="2.5dp"
+                            android:layout_marginLeft="7.5dp"
+                            android:src="@drawable/edit_icon_white"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="35dp"
+                        android:layout_height="25dp"
+                        android:layout_marginRight="10dp"
+                        android:visibility="invisible"
+                        android:id="@+id/linearLayout_deleteContact3"
+                        android:background="@drawable/burgundy_background">
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:gravity="center"
+                            android:layout_marginTop="2.5dp"
+                            android:layout_marginLeft="7.5dp"
+                            android:src="@drawable/delete_icon_white"
+                            android:layout_marginRight="10dp"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_gravity="right"
+            android:layout_marginTop="10dp"
+            android:background="#696969"
+            android:orientation="horizontal">
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#A4C4B5"
+            android:visibility="gone"
+            android:id="@+id/linearLayout_editContact">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/white_background"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="* Name, Last Name"
+                    android:fontFamily="@font/muli_regular"
+                    android:textColor="#696969"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginTop="30dp" />
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="35dp"
+                    android:id="@+id/editText_contactName"
+                    android:textSize="15dp"
+                    android:background="@drawable/input_model_selected"
+                    android:fontFamily="@font/muli_regular"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginLeft="25dp"/>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="* Phone"
+                    android:textColor="#696969"
+                    android:fontFamily="@font/muli_regular"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginTop="10dp" />
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="35dp"
+                    android:id="@+id/editText_contactPhone"
+                    android:textSize="15dp"
+                    android:background="@drawable/input_model_selected"
+                    android:fontFamily="@font/muli_regular"
+                    android:inputType="number"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginLeft="25dp"/>
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Mail"
+                    android:textColor="#696969"
+                    android:fontFamily="@font/muli_regular"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginTop="10dp" />
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="35dp"
+                    android:id="@+id/editText_contactMail"
+                    android:textSize="15dp"
+                    android:background="@drawable/input_model_selected"
+                    android:fontFamily="@font/muli_regular"
+                    android:inputType="textEmailAddress"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginLeft="25dp"/>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="15dp">
+                    <Button
+                        android:id="@+id/btn_saveContact"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:background="@drawable/burgundy_background"
+                        android:text="Save"
+                        android:fontFamily="@font/muli_regular"
+                        android:textColor="@android:color/white"
+                        android:textAllCaps="false"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginRight="25dp"/>
+                    <Button
+                        android:id="@+id/btn_cancelContact"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:background="@drawable/burgundy_background"
+                        android:text="Cancel"
+                        android:fontFamily="@font/muli_regular"
+                        android:textColor="@android:color/white"
+                        android:textAllCaps="false"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginRight="25dp"/>
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

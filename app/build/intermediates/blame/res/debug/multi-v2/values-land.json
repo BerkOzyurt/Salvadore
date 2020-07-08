@@ -1,0 +1,36 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\b84158088\\.gradle\\caches\\transforms-2\\files-2.1\\1314e89a610f78a9315e8b7b1eebd16c\\appcompat-1.0.0\\res\\values-land\\values-land.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,125,196",
+                        "endColumns": "69,70,67",
+                        "endOffsets": "120,191,259"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\b84158088\\.gradle\\caches\\transforms-2\\files-2.1\\79ef726accbaff7d9210b7ab3d8fda3e\\jetified-agconnect-appmessaging-1.3.1.300\\res\\values-land\\values-land.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "40",
+                        "endOffsets": "91"
+                    },
+                    "to": {
+                        "startLines": "5",
+                        "startColumns": "4",
+                        "startOffsets": "264",
+                        "endColumns": "40",
+                        "endOffsets": "300"
+                    }
+                }
+            ]
+        }
+    ]
+}

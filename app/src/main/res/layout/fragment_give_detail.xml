@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/white_background"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Give some detail please..."
+            android:textColor="#696969"
+            android:fontFamily="@font/muli_regular"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="65dp" />
+
+
+
+        <MultiAutoCompleteTextView
+            android:id="@+id/multiAutoCompleteTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/input_model_selected"
+            android:text=""
+            android:textSize="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="25dp"/>
+
+        <Button
+            android:id="@+id/btn_submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/gray_background"
+            android:text="Submit"
+            android:fontFamily="@font/muli_regular"
+            android:textColor="@android:color/white"
+            android:textAllCaps="false"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:paddingLeft="50dp"
+            android:paddingRight="50dp"
+            android:layout_marginBottom="100dp"/>
+    </LinearLayout>
+</ScrollView>

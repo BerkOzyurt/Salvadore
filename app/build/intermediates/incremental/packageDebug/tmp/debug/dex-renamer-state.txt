@@ -1,0 +1,7 @@
+#Wed Jul 08 14:46:27 EET 2020
+base.0=C\:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out\\classes.dex
+path.1=classes2.dex
+renamed.1=classes2.dex
+path.0=classes.dex
+renamed.0=classes.dex
+base.1=C\:\\Users\\b84158088\\Desktop\\130420\\salvadore-master\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out\\classes2.dex

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A4C4B5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/white_background"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="85dp"
+            android:src="@drawable/salvadore"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="60dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Wellcome to Salvadore"
+            android:textSize="25dp"
+            android:fontFamily="@font/muli_regular"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:textColor="#696969"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="If you don't have an accout, please register with Huawei."
+            android:textColor="#696969"
+            android:textSize="15dp"
+            android:fontFamily="@font/muli_regular"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="80dp"
+            android:layout_marginBottom="15dp"/>
+
+
+
+
+        <LinearLayout
+            android:id="@+id/layout_registerWithHuawei"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:background="@drawable/input_model_selected"
+            android:layout_marginTop="25dp">
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:src="@drawable/huaweilogo"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Register with Huawei"
+                android:textSize="15dp"
+                android:fontFamily="@font/muli_regular"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="25dp"
+            android:text="or"
+            android:fontFamily="@font/muli_regular"
+            android:layout_gravity="center"
+            android:gravity="center"/>
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/line"
+            android:layout_gravity="left"
+            android:layout_marginTop="-10dp"
+            android:layout_marginLeft="25dp"/>
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/line"
+            android:layout_gravity="right"
+            android:layout_marginTop="-4dp"
+            android:layout_marginRight="25dp"/>
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="40dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="If you have an accout, please "
+                android:fontFamily="@font/muli_regular"
+                android:textSize="15dp"/>
+            <TextView
+                android:id="@+id/textView_login"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Login"
+                android:textStyle="bold"
+                android:fontFamily="@font/muli_regular"
+                android:textSize="15dp"/>
+        </LinearLayout>
+
+
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Don't forget, Salvadore with you. \nEvery time and everywhere."
+            android:textColor="#696969"
+            android:textStyle="italic"
+            android:fontFamily="@font/muli_regular"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="15dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="65dp"
+            android:layout_marginBottom="10dp"/>
+    </LinearLayout>
+</ScrollView>

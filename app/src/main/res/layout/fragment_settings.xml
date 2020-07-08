@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="#eeeeee"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:gravity="left"
+                android:orientation="horizontal"
+                android:background="@android:color/white"
+                android:layout_marginTop="1dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Version : "
+                    android:layout_gravity="center"
+                    android:textColor="#000000"
+                    android:layout_marginLeft="25dp"
+                    android:fontFamily="@font/muli_regular"/>
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="italic"
+                    android:textSize="14sp"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="25dp"
+                    android:text="1.0.0"
+                    android:gravity="right"
+                    android:textColor="#000000"
+                    android:fontFamily="@font/muli_regular"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:orientation="horizontal"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp">
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Salvadore "
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    android:layout_gravity="left"
+                    android:textColor="#474747"
+                    android:fontFamily="@font/muli_regular"/>
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:id="@+id/linearLayout_aboutApp"
+                android:gravity="left"
+                android:orientation="horizontal"
+                android:background="@android:color/white"
+                android:layout_marginTop="10dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="About App"
+                    android:layout_gravity="center"
+                    android:textColor="#000000"
+                    android:layout_marginLeft="25dp"
+                    android:fontFamily="@font/muli_regular"/>
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:layout_marginRight="25dp"
+                    android:text=">"
+                    android:gravity="right"
+                    android:layout_gravity="center"
+                    android:textColor="#000000"
+                    android:fontFamily="@font/muli_regular"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:id="@+id/linearLayout_privacyPolicy"
+                android:gravity="left"
+                android:orientation="horizontal"
+                android:background="@android:color/white"
+                android:layout_marginTop="1dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Privacy Policy"
+                    android:layout_gravity="center"
+                    android:textColor="#000000"
+                    android:layout_marginLeft="25dp"
+                    android:fontFamily="@font/muli_regular"/>
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:layout_marginRight="25dp"
+                    android:text=">"
+                    android:gravity="right"
+                    android:layout_gravity="center"
+                    android:textColor="#000000"
+                    android:fontFamily="@font/muli_regular"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:id="@+id/linearLayout_howToUse"
+                android:gravity="left"
+                android:orientation="horizontal"
+                android:background="@android:color/white"
+                android:layout_marginTop="1dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="How To Use ?"
+                    android:layout_gravity="center"
+                    android:textColor="#000000"
+                    android:layout_marginLeft="25dp"
+                    android:fontFamily="@font/muli_regular"/>
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:layout_marginRight="25dp"
+                    android:text=">"
+                    android:gravity="right"
+                    android:layout_gravity="center"
+                    android:textColor="#000000"
+                    android:fontFamily="@font/muli_regular"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:orientation="horizontal"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp">
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Manage "
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    android:layout_gravity="left"
+                    android:textColor="#474747"
+                    android:fontFamily="@font/muli_regular"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:id="@+id/linearLayout_myAccount"
+                android:gravity="left"
+                android:orientation="horizontal"
+                android:background="@android:color/white"
+                android:layout_marginTop="10dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="My Account"
+                    android:layout_gravity="center"
+                    android:textColor="#000000"
+                    android:layout_marginLeft="25dp"
+                    android:fontFamily="@font/muli_regular"/>
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:layout_marginRight="25dp"
+                    android:text=">"
+                    android:gravity="right"
+                    android:layout_gravity="center"
+                    android:textColor="#000000"
+                    android:fontFamily="@font/muli_regular"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:id="@+id/linearLayout_checkWifi"
+                android:gravity="left"
+                android:orientation="horizontal"
+                android:background="@android:color/white"
+                android:layout_marginTop="1dp"
+                android:visibility="gone">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Check Wifi Security"
+                    android:layout_gravity="center"
+                    android:textColor="#000000"
+                    android:layout_marginLeft="25dp"
+                    android:fontFamily="@font/muli_regular"/>
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:layout_marginRight="25dp"
+                    android:text=">"
+                    android:gravity="right"
+                    android:layout_gravity="center"
+                    android:textColor="#000000"
+                    android:fontFamily="@font/muli_regular"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:id="@+id/linearLayout_logOut"
+                android:gravity="left"
+                android:orientation="horizontal"
+                android:background="@android:color/white"
+                android:layout_marginTop="1dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Log Out"
+                    android:layout_gravity="center"
+                    android:textColor="#000000"
+                    android:layout_marginLeft="25dp"
+                    android:fontFamily="@font/muli_regular"/>
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:layout_marginRight="25dp"
+                    android:text=">"
+                    android:gravity="right"
+                    android:layout_gravity="center"
+                    android:textColor="#000000"
+                    android:fontFamily="@font/muli_regular"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Copyright @ Salvadore"
+                android:textSize="14sp"
+                android:gravity="center"
+                android:textColor="#474747"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="25dp"
+                android:fontFamily="@font/muli_regular"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

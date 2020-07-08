@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.salvadore"
+    android:targetSandboxVersion="2"
+    android:versionCode="2"
+    android:versionName="1.0.1" >
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="29" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="com.huawei.appmarket.service.commondata.permission.GET_COMMON_DATA" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="22" />
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="22" />
+    <!-- 注意这里.permission.PASSBY_MSG是自身app的包名 + .permission.PROCESS_PUSH_MSG -->
+    <permission
+        android:name="com.example.salvadore.permission.PROCESS_PUSH_MSG"
+        android:protectionLevel="signatureOrSystem" />
+    <permission
+        android:name="com.example.salvadore.permission.PUSH_PROVIDER"
+        android:protectionLevel="signatureOrSystem" />
+    <permission
+        android:name="com.example.salvadore.permission.PUSH_WRITE_PROVIDER"
+        android:protectionLevel="signatureOrSystem" /> <!-- 注意这里.permission.PASSBY_MSG是自身app的包名 + .permission.PROCESS_PUSH_MSG -->
+    <uses-permission android:name="com.example.salvadore.permission.PROCESS_PUSH_MSG" />
+    <uses-permission android:name="com.example.salvadore.permission.PUSH_PROVIDER" />
+
+    <application
+        android:name="com.example.salvadore.utils.CloudDBQuickStartApplication"
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name="com.example.salvadore.activities.SplashActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.salvadore.activities.RegisterActivity" />
+        <activity android:name="com.example.salvadore.activities.RegisterInfoActivity" />
+        <activity android:name="com.example.salvadore.activities.MainActivity" />
+        <activity android:name="com.example.salvadore.activities.MapActivity" />
+        <activity android:name="com.example.salvadore.activities.LoginActivity" />
+
+        <service
+            android:name="com.example.salvadore.utils.MyPushService"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.huawei.push.action.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.example.salvadore.utils.LocationBackgroundService"
+            android:exported="false" />
+
+        <meta-data
+            android:name="apms_debug_log_enabled"
+            android:value="true" />
+
+        <service
+            android:name="com.huawei.agconnect.core.ServiceDiscovery"
+            android:exported="false" >
+            <meta-data
+                android:name="com.huawei.agconnect.appmessaging.AppMessagingServiceRegistrar"
+                android:value="com.huawei.agconnect.core.ServiceRegistrar" />
+            <meta-data
+                android:name="com.huawei.agconnect.appmessaging.display.AppMessagingDisplayServiceRegistrar"
+                android:value="com.huawei.agconnect.core.ServiceRegistrar" />
+            <meta-data
+                android:name="com.huawei.agconnect.apms.APMSRegistrar"
+                android:value="com.huawei.agconnect.core.ServiceRegistrar" />
+            <meta-data
+                android:name="com.huawei.agconnect.remoteconfig.ConfigRegistrar"
+                android:value="com.huawei.agconnect.core.ServiceRegistrar" />
+            <meta-data
+                android:name="com.huawei.agconnect.abtest.ABTestRegistrar"
+                android:value="com.huawei.agconnect.core.ServiceRegistrar" />
+            <meta-data
+                android:name="com.huawei.agconnect.auth.AuthServiceRegistrar"
+                android:value="com.huawei.agconnect.core.ServiceRegistrar" />
+            <meta-data
+                android:name="com.huawei.agconnect.credential.CredentialServiceRegistrar:500"
+                android:value="com.huawei.agconnect.core.ServiceRegistrar" />
+        </service>
+
+        <provider
+            android:name="com.huawei.agconnect.apms.APMSInitializeProvider"
+            android:authorities="com.example.salvadore.APMSInitializeProvider"
+            android:exported="false"
+            android:initOrder="101" />
+
+        <meta-data
+            android:name="com.huawei.hms.client.service.name:hianalytics"
+            android:value="hianalytics:4.0.3.300" />
+        <meta-data
+            android:name="com.huawei.hms.min_api_level:hianalytics:hianalytics"
+            android:value="1" />
+
+        <receiver
+            android:name="com.huawei.hms.analytics.receiver.HiAnalyticsSvcEvtReceiver"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.huawei.hms.analytics.pps.event" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.huawei.hms.support.api.push.PushMsgReceiver"
+            android:permission="com.example.salvadore.permission.PROCESS_PUSH_MSG" >
+            <intent-filter>
+
+                <!-- 必须, 用于接收通知栏消息点击事件 -->
+                <action android:name="com.huawei.intent.action.PUSH_DELAY_NOTIFY" />
+                <!-- 可选，兼容老的华为手机 -->
+                <action android:name="com.huawei.intent.action.PUSH" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.huawei.hms.support.api.push.PushReceiver"
+            android:permission="com.example.salvadore.permission.PROCESS_PUSH_MSG" >
+            <intent-filter>
+
+                <!-- 必须,用于接收token -->
+                <action android:name="com.huawei.android.push.intent.REGISTRATION" />
+                <!-- 必须, 用于接收消息 -->
+                <action android:name="com.huawei.android.push.intent.RECEIVE" />
+            </intent-filter>
+        </receiver> <!-- 非华为手机通知栏和透传消息的接收服务定义 -->
+        <service
+            android:name="com.huawei.hms.support.api.push.service.HmsMsgService"
+            android:enabled="true"
+            android:exported="true"
+            android:process=":pushservice" >
+            <intent-filter>
+                <action android:name="com.huawei.push.msg.NOTIFY_MSG" />
+                <action android:name="com.huawei.push.msg.PASSBY_MSG" />
+            </intent-filter>
+        </service>
+
+        <provider
+            android:name="com.huawei.hms.support.api.push.PushProvider"
+            android:authorities="com.example.salvadore.huawei.push.provider"
+            android:exported="true"
+            android:permission="com.example.salvadore.permission.PUSH_PROVIDER"
+            android:readPermission="com.example.salvadore.permission.PUSH_PROVIDER"
+            android:writePermission="com.example.salvadore.permission.PUSH_WRITE_PROVIDER" />
+
+        <meta-data
+            android:name="com.huawei.hms.client.service.name:push"
+            android:value="push:4.0.2.300" />
+        <meta-data
+            android:name="com.huawei.hms.min_api_level:push:push"
+            android:value="1" /> <!-- 声明Kit SDK的名称和版本号 -->
+        <meta-data
+            android:name="com.huawei.hms.client.service.name:location"
+            android:value="location:4.0.2.300" /> <!-- 声明对Kit服务依赖的最低API Level -->
+        <meta-data
+            android:name="com.huawei.hms.min_api_level:location:location"
+            android:value="1" />
+        <meta-data
+            android:name="com.huawei.hms.version"
+            android:value="4.0.1.300" />
+        <meta-data
+            android:name="com.huawei.hms.client.service.name:maps"
+            android:value="maps:4.0.0.302" />
+        <meta-data
+            android:name="com.huawei.hms.min_api_level:maps:huawei_module_maps"
+            android:value="1" />
+        <meta-data
+            android:name="com.huawei.hms.client.service.name:site"
+            android:value="site:4.0.2.300" />
+        <meta-data
+            android:name="com.huawei.hms.min_api_level:site:site"
+            android:value="1" />
+        <meta-data
+            android:name="com.huawei.hms.client.service.name:safetydetect"
+            android:value="safetydetect:4.0.0.300" />
+        <meta-data
+            android:name="com.huawei.hms.min_api_level:safetydetect:safetydetect"
+            android:value="1" />
+
+        <activity
+            android:name="com.huawei.hms.hwid.internal.ui.activity.HwIdSignInHubActivity"
+            android:excludeFromRecents="true"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+        </activity>
+
+        <meta-data
+            android:name="com.huawei.hms.client.service.name:hwid"
+            android:value="hwid:4.0.1.300" />
+        <meta-data
+            android:name="com.huawei.hms.min_api_level:hwid:hwid"
+            android:value="1" />
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <provider
+            android:name="com.squareup.picasso.PicassoProvider"
+            android:authorities="com.example.salvadore.com.squareup.picasso"
+            android:exported="false" />
+        <provider
+            android:name="com.huawei.hms.aaid.InitProvider"
+            android:authorities="com.example.salvadore.aaidinitprovider"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.huawei.hms.client.service.name:opendevice"
+            android:value="opendevice:4.0.1.301" />
+        <meta-data
+            android:name="com.huawei.hms.min_api_level:opendevice:push"
+            android:value="1" />
+        <!--
+        为后续统计第三方app集成了哪些Kit，因此需要Kit在自己的AndroidManifest.xml文件中定义业务标签元数据，
+        流水线打包时会替换成HMSVER对应的版本号，不要手动修改
+        -->
+        <meta-data
+            android:name="com.huawei.hms.client.service.name:base"
+            android:value="base:4.0.3.301" /> <!-- SDK依赖的HMSCore的最低api level元数据 -->
+        <meta-data
+            android:name="com.huawei.hms.min_api_level:base:hmscore"
+            android:value="1" /> <!-- 用于判断是否集成了本lib -->
+        <meta-data
+            android:name="availableLoaded"
+            android:value="yes" />
+
+        <provider
+            android:name="com.huawei.hms.update.provider.UpdateProvider"
+            android:authorities="com.example.salvadore.hms.update.provider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+        </provider>
+        <provider
+            android:name="com.huawei.agconnect.core.provider.AGConnectInitializeProvider"
+            android:authorities="com.example.salvadore.AGCInitializeProvider"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.huawei.hms.client.service.name:dynamic-api"
+            android:value="dynamic-api:1.0.13.300" />
+        <meta-data
+            android:name="com.huawei.hms.min_api_level:dynamic-api:huawei_module_dynamicloader"
+            android:value="2" />
+
+        <activity
+            android:name="com.huawei.hms.activity.BridgeActivity"
+            android:configChanges="orientation|locale|layoutDirection|fontScale|screenSize|smallestScreenSize|screenLayout"
+            android:excludeFromRecents="true"
+            android:exported="false"
+            android:hardwareAccelerated="true"
+            android:theme="@android:style/Theme.Translucent" >
+            <meta-data
+                android:name="hwc-theme"
+                android:value="androidhwext:style/Theme.Emui.Translucent" />
+        </activity>
+        <activity
+            android:name="com.huawei.hms.activity.EnableServiceActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|smallestScreenSize|screenLayout" >
+        </activity>
+        <activity
+            android:name="com.huawei.updatesdk.service.otaupdate.AppUpdateActivity"
+            android:configChanges="orientation|screenSize"
+            android:exported="false"
+            android:theme="@style/upsdkDlDialog" >
+            <meta-data
+                android:name="hwc-theme"
+                android:value="androidhwext:style/Theme.Emui.Translucent.NoTitleBar" />
+        </activity>
+        <activity
+            android:name="com.huawei.updatesdk.support.pm.PackageInstallerActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:exported="false"
+            android:theme="@style/upsdkDlDialog" >
+            <meta-data
+                android:name="hwc-theme"
+                android:value="androidhwext:style/Theme.Emui.Translucent" />
+        </activity>
+    </application>
+
+</manifest>
